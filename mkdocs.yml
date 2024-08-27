@@ -4,9 +4,9 @@ nav:
   - Home: index.md
   - Docker Containers:
       - Overview: docker/index.md
-      - Install: docker/01 setup.md
-      - Nextcloud: docker/02 nextcloud.md
-      - Immich: docker/03 immich.md	
+      - Install: docker/setup.md
+      - Nextcloud: docker/nextcloud.md
+      - Immich: docker/immich.md	
   - Thoughts:
       - Overview: thoughts/index.md
       - Kernel: thoughts/kernel.md
