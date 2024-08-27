@@ -1,4 +1,4 @@
-# Welcome to JustAGuyLinux Library
+# JustAGuyLinux Library
 
 **Your Slightly Eccentric Hub for Thoughts, Documentation, and YouTube Video Notes**
 
