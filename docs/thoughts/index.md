@@ -25,9 +25,9 @@ Debian is a world where packages meet their perfect match, where kernels dance w
 
 Get ready for a whimsical journey through the Debian landscape. Expect:
 
-- **Surprise Updates**: Fresh, unexpected takes on Debian every week!
+- **Surprise Updates**: Fresh, unexpected takes on Debian every ... so often!
 - **Playful Challenges**: See if you can solve our “Debian Mystery of the Month” and win bragging rights.
-- **Community Shenanigans**: Share your own random thoughts and Debian discoveries with fellow enthusiasts.
+- **Community Shenanigans**: Share your own random thoughts (when I get my Discord server ... if ... we'll see') and Debian discoveries with fellow enthusiasts.
 
 Debian isn’t just an operating system; it’s a treasure trove of fascinating oddities and delightful surprises. So, grab your favorite cup of coffee (or tea, or…well, whatever suits your fancy), and dive into a world where randomness reigns supreme!
 
