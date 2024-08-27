@@ -1,5 +1,5 @@
 site_name: JustAGuyLinux Library
-site_url: https://mydomain.org/mysite
+site_url: https://justaguylinux.com
 nav:
   - Home: index.md
   - Docker Containers:
