@@ -1,5 +1,0 @@
-- [Welcome](index.md)
-- [Docker](docker/)
-- [Thoughts](thoughts/)
-- [Contact](contact.md)
-- [About](about.md)
