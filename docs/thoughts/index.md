@@ -32,7 +32,3 @@ Get ready for a whimsical journey through the Debian landscape. Expect:
 Debian isn’t just an operating system; it’s a treasure trove of fascinating oddities and delightful surprises. So, grab your favorite cup of coffee (or tea, or…well, whatever suits your fancy), and dive into a world where randomness reigns supreme!
 
 Welcome aboard, and remember: In Debian, the fun is in the details.
-
----
-
-Feel free to tweak or expand on any section to better fit your style or the specifics of what you want to cover!
