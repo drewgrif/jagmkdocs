@@ -31,25 +31,9 @@ theme:
         name: Switch to light mode
 
   features:
-    - announce.dismiss
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.instant.preview
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - navigation.indexes
     - navigation.footer
-    - search.suggest
-    - search.highlight
-    - search.share
     - content.code.copy
-    - content.tabs.link
-    - content.code.annotate
-    - header.autohide
+    - search.suggest
 
 plugins: 
   - search
