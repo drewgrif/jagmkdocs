@@ -1,7 +1,7 @@
 ---
 tags:
     - micro
-    - softare
+    - software
     - documentation
     - text editor
 ---

@@ -43,6 +43,7 @@ theme:
   features:
     - navigation.footer
     - content.code.copy
+    - content.code.select
     - search.suggest
 
 plugins: 
