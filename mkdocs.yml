@@ -2,12 +2,14 @@ site_name: JustAGuyLinux Library
 site_url: https://mydomain.org/mysite
 nav:
   - Home: index.md
-  - Docker Containers:
-      - Overview: docker/index.md
+  - Documentation:
+	  - Docker: 
+		- Overview: docker/index.md
+        - Setup: docker/setup.md
+        - Nextcloud: docker/nextcloud.md
+        - Immich: docker/immich.md
       - Software:
-          - Setup: docker/setup.md
-          - Nextcloud: docker/nextcloud.md
-          - Immich: docker/immich.md
+		- Micro: software/micro.md
   - Thoughts:
       - Overview: thoughts/index.md
       - Kernel: thoughts/kernel.md
