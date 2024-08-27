@@ -1,3 +1,9 @@
+---
+tags:
+    - debian
+    - docker
+    - installation
+---
 ## Installing Docker
 
 Install dependencies:

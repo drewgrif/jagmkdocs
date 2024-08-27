@@ -1,3 +1,9 @@
+---
+tags:
+    - nextcloud
+    - docker
+    - installation
+---
 ## Nextcloud YAML 
 I am using a premounted EXTERNAL USB Drive for DATA
 

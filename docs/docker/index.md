@@ -1,3 +1,8 @@
+---
+tags:
+    - docker
+    - humor
+---
 # Docker: Containerize Your Chaos
 
 Welcome to the world of Docker, where we turn the "Docker" into "Doctor" and prescribe a remedy for your container-related headaches. Think of Docker as the magical box that keeps all your software dependencies in one neat little package, so you can avoid the messy clutter of mismatched versions and dependency conflicts.
