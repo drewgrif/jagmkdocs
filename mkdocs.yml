@@ -1,4 +1,28 @@
-site_name: My Docs
+site_name: JAGLinux Library
+site_url: https://
+
+# Copyright
+copyright: Copyright &copy; 2024 JustAGuy Linux
 
 theme:
   name: material
+  logo: assets/logo.png
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+  plugins: 
+	- search
+	- social    
+	  
+extra_css:
+  - css/extra.css
