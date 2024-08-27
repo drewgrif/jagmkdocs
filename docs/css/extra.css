@@ -14,19 +14,7 @@
     --md-default-tab-color: #d7005f;
     --md-default-header-color: #2e3436;
     --md-default-tab-underline-color: #e63946;
-}
-/* Light mode code block background color */
-[data-md-color-scheme="default"] .highlight pre {
-    background-color: #e7e3e0; /* Background color for code blocks in light mode */
-    color: #000; /* Optional: Adjust text color for contrast */
-    padding: 10px; /* Optional: Add padding for better readability */
-    border-radius: 4px; /* Optional: Rounded corners for a modern look */
-    overflow-x: auto; /* Ensure horizontal scrolling if needed */
-}
-
-/* Optional: Customize code block line numbers */
-[data-md-color-scheme="default"] .highlight pre .lineno {
-    color: #6c757d; /* Example color for line numbers */
+    --md-code-bg-color: #e7e3e0;
 }
 
 
