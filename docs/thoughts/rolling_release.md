@@ -1,3 +1,9 @@
+---
+tags:
+    - linux
+    - humor
+    - distros
+---
 **Why Rolling Release Models Are Overrated: Here come the jokes ...**
 
 1. **The Roller Coaster Ride**

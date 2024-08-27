@@ -1,7 +1,9 @@
-Arguing that kernel updates can be overrated involves pointing out the downsides and limitations of constantly updating the Linux kernel. Here’s a humorous yet insightful take on why kernel updates might not always be the holy grail of system performance and stability:
-
 ---
-
+tags:
+    - kernel
+    - humor
+    - thoughts
+---
 ### Why Kernel Updates Can Be Overrated: A Comedy Routine
 
 1. **The "Constantly Changing Tires" Syndrome**
