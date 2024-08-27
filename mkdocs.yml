@@ -2,19 +2,21 @@ site_name: JustAGuyLinux Library
 site_url: https://mydomain.org/mysite
 nav:
   - Home: index.md
-  - Documentation:
-	  - Docker: 
-		- Overview: docker/index.md
-        - Setup: docker/setup.md
-        - Nextcloud: docker/nextcloud.md
-        - Immich: docker/immich.md
+  - Docker Containers:
+      - Overview: docker/index.md
       - Software:
-		- Micro: software/micro.md
+          - Setup: docker/setup.md
+          - Nextcloud: docker/nextcloud.md
+          - Immich: docker/immich.md
   - Thoughts:
       - Overview: thoughts/index.md
       - Kernel: thoughts/kernel.md
       - Rolling Release: thoughts/rolling_release.md
       - Whoogle: thoughts/whoogle.md
+  - Software:
+      - Overview: software/index.md
+      - Micro: software/micro.md
+      - Geany: software/geany.md
   - About: about.md  
   - Tags: tags.md
   - Contact: contact.md        

@@ -3,6 +3,7 @@ tags:
     - micro
     - softare
     - documentation
+    - text editor
 ---
 # Micro
 I wish I could say I loved vim, but I don't.  Like with most things, I have a genuine distaste for anything I stink at. I am not kidding I am embarrassingly bad at vim. Why do you think I avoid using vim on my channel?
