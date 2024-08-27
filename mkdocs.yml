@@ -1,17 +1,5 @@
 site_name: JustAGuyLinux Library
 site_url: https://mydomain.org/mysite
-nav:
-  - Home: index.md
-  - Docker Containers:
-      - Overview: docker/index.md
-      - Install: docker/setup.md
-      - Nextcloud: docker/nextcloud.md
-      - Immich: docker/immich.md	
-  - Thoughts:
-      - Overview: thoughts/index.md
-      - Kernel: thoughts/kernel.md
-      - Rolling Release: thoughts/rolling_release.md
-      - Whoogle: thoughts/whoogle.md	
       
 # Copyright
 copyright: Copyright &copy; 2024 JustAGuy Linux

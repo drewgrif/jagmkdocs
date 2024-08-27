@@ -1,6 +1,5 @@
 - [Welcome](index.md)
-- [Knowledge Base](documentation/)
+- [Docker](docker/)
 - [Thoughts](thoughts/)
-- [Tags](tags.md)
 - [Contact](contact.md)
 - [About](about.md)
