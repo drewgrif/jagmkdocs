@@ -1,3 +1,8 @@
+---
+tags:
+    - youtube
+---
+
 # Welcome to Just A Guy Linux YouTube Notes! 🎉
 
 Welcome to the official page for [Just A Guy Linux](https://youtube.com/justaguylinux)! Here, you can find everything related to my YouTube channel where I share all things Linux, tech tips, tutorials, and more.

@@ -9,7 +9,7 @@ tags:
 
 ## Notes for my Geany setup
 
-**Documenation**: While there is two videos to watch, you may want to check the [documenation](/software/geany.md) in the [software center](/software/index.md).
+**Documenation**: While there is two videos to watch, you may want to check the [documenation](/software/geany) in the [software center](/software).
 
 
 ## First Video
