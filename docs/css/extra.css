@@ -9,9 +9,9 @@
 
 /* Light mode */
 [data-md-color-scheme="default"]{
-    --md-primary-fg-color: #e63946;
+    --md-primary-fg-color: #d7005f;
     --md-default-bg-color: #f8f4f1;
-    --md-default-tab-color: #d7005f;
+    --md-default-tab-color: #151b24;
     --md-default-header-color: #2e3436;
     --md-default-tab-underline-color: #e63946;
     --md-code-bg-color: #e7e3e0;
