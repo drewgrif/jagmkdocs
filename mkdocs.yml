@@ -96,10 +96,13 @@ extra:
       link: https://github.com/drewgrif
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/justaguylinux
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/justaguylinux
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@justaguylinux
+    - icon: /material/mailbox
+      name: contact us
+      link: contact.md
       
 extra_css:
   - css/extra.css
