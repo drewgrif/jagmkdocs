@@ -238,5 +238,3 @@ Adjust the following parameters:
 ```shell
 sudo systemctl restart apache2
 ```
-
-[[02 Using an external usb drive]]

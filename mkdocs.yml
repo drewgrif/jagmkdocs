@@ -49,7 +49,9 @@ theme:
         name: Switch to light mode
 
   features:
+    - navigation.top
     - navigation.footer
+    - navigation.path
     - content.code.copy
     - content.code.select
     - search.suggest
