@@ -64,6 +64,8 @@ theme:
     - content.code.copy
     - content.code.select
     - search.suggest
+    - search.highlight
+    - search.share
 
 plugins: 
   - search
