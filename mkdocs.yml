@@ -27,7 +27,7 @@ nav:
           - Setup: docker/setup.md
           - Nextcloud: docker/nextcloud.md
           - Immich: docker/immich.md
-      - Jitis: homelab/jitsi.md
+      - Jitsi: homelab/jitsi.md
   - About: about.md  
   - Tags: tags.md
   - Contact: contact.md        
@@ -63,9 +63,8 @@ theme:
   features:
     - navigation.top
     - navigation.footer
-    - navigation.expand
+    - navigation.indexes
     - content.code.copy
-    - content.code.select
     - search.suggest
     - search.highlight
     - search.share
