@@ -18,6 +18,9 @@ nav:
       - Overview: software/index.md
       - Micro: software/micro.md
       - Geany: software/geany.md
+      - Nextcloud:
+          - Setup: software/nextcloud/install.md
+          - USB Drive: software/nextcloud/ext_usb_drive.md
   - YouTube:
       - Overview: youtube/index.md
       - Qtile: youtube/qtile.md

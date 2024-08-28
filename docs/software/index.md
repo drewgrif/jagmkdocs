@@ -72,4 +72,4 @@ tags:
 
 13. **Communication**
     - **Discord**: A platform for text, voice, and video communication, popular in gaming and online communities.
-      - Installation: I personally use my own script for installing and updating Discord. [Discord Linux](https://github.com/drewgrif/jag_dots/tree/main/scripts)
+      - Installation: I personally use [my own script for installing and updating Discord](https://github.com/drewgrif/jag_dots/tree/main/scripts){:target="_blank"}.
