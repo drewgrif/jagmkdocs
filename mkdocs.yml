@@ -11,20 +11,23 @@ nav:
       - Overview: software/index.md
       - Micro: software/micro.md
       - Geany: software/geany.md
-      - Nextcloud:
-          - Setup: software/nextcloud/install.md
-          - USB Drive: software/nextcloud/ext_usb_drive.md
   - Thoughts:
       - Overview: thoughts/index.md
       - Kernel: thoughts/kernel.md
       - Rolling Release: thoughts/rolling_release.md
       - Whoogle: thoughts/whoogle.md
-  - Docker Containers:
-      - Overview: docker/index.md
-      - Software:
+  - HomeLab:
+      - Overview: homelab/index.md
+      - Hardware: homelab/n3.md
+      - Nextcloud:
+          - Setup: nextcloud/install.md
+          - USB Drive: nextcloud/ext_usb_drive.md
+      - Docker:
+          - Overview: docker/index.md
           - Setup: docker/setup.md
           - Nextcloud: docker/nextcloud.md
           - Immich: docker/immich.md
+      - Jitis: homelab/jitsi.md
   - About: about.md  
   - Tags: tags.md
   - Contact: contact.md        
