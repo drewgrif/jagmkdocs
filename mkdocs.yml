@@ -100,9 +100,8 @@ extra:
       link: https://twitter.com/justaguylinux
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@justaguylinux
-    - icon: /material/mailbox
-      name: contact us
-      link: contact.md
+    - icon: fontawesome/brands/mastodon
+      
       
 extra_css:
   - css/extra.css
