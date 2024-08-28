@@ -1,4 +1,5 @@
 site_name: JustAGuyLinux Library
+site_description: Documentation and articles from the JustAGuyLinux YouTube channel and more.
 site_url: https://justaguylinux.com
 nav:
   - Home: index.md
@@ -49,6 +50,7 @@ theme:
 plugins: 
   - search
   - social
+  - rss
   - tags:
       tags_file: tags.md
 

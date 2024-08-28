@@ -20,6 +20,6 @@ Struggling to remember what you watched on that 30-minute video? I am making an 
 - **Expertise**: I like to think of myself as "just some random" that loves to tinker. We’re learning right alongside you!
 - **Clarity**: Our goal is to explain things simply—because we’re still trying to understand them ourselves.
 - **Community**: Join a group of fellow enthusiasts who, like you, are figuring this out as they go. At least we’re all in this together!
-- **Podcast**: Currently, I am a regular on [The Linux Cast](https://thelinuxcast.org){:target="_blank"}  podcast.  Sometimes I hang on The [Linux Cast Discord server](https://discord.gg/C9je3KSrFA){:target="_blank"} .
+- **Podcast**: Currently, I am a regular on [The Linux Cast](https://thelinuxcast.org){:target="_blank"}  podcast.  Sometimes I hang on [The Linux Cast Discord server](https://discord.gg/C9je3KSrFA){:target="_blank"} .
 
 Explore our resources and embark on your Linux adventure with JustAGuyLinux. Who knows, you might just learn something new—or at least have a good laugh trying.
