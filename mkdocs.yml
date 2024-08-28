@@ -51,7 +51,7 @@ theme:
   features:
     - navigation.top
     - navigation.footer
-    - navigation.path
+    - navigation.sections
     - content.code.copy
     - content.code.select
     - search.suggest
