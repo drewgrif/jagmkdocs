@@ -3,17 +3,10 @@ site_description: Documentation and articles from the JustAGuyLinux YouTube chan
 site_url: https://justaguylinux.com
 nav:
   - Home: index.md
-  - Docker Containers:
-      - Overview: docker/index.md
-      - Software:
-          - Setup: docker/setup.md
-          - Nextcloud: docker/nextcloud.md
-          - Immich: docker/immich.md
-  - Thoughts:
-      - Overview: thoughts/index.md
-      - Kernel: thoughts/kernel.md
-      - Rolling Release: thoughts/rolling_release.md
-      - Whoogle: thoughts/whoogle.md
+  - YouTube:
+      - Overview: youtube/index.md
+      - Qtile: youtube/qtile.md
+      - Geany: youtube/geany.md 
   - Software:
       - Overview: software/index.md
       - Micro: software/micro.md
@@ -21,10 +14,17 @@ nav:
       - Nextcloud:
           - Setup: software/nextcloud/install.md
           - USB Drive: software/nextcloud/ext_usb_drive.md
-  - YouTube:
-      - Overview: youtube/index.md
-      - Qtile: youtube/qtile.md
-      - Geany: youtube/geany.md 
+  - Thoughts:
+      - Overview: thoughts/index.md
+      - Kernel: thoughts/kernel.md
+      - Rolling Release: thoughts/rolling_release.md
+      - Whoogle: thoughts/whoogle.md
+  - Docker Containers:
+      - Overview: docker/index.md
+      - Software:
+          - Setup: docker/setup.md
+          - Nextcloud: docker/nextcloud.md
+          - Immich: docker/immich.md
   - About: about.md  
   - Tags: tags.md
   - Contact: contact.md        
