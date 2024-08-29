@@ -7,7 +7,7 @@ tags:
 ---
 # Show notes for the following YouTube Video
 
-[![Debian Bookworm - Qtile Installation](https://img.youtube.com/vi/fUBjLc5aUH8/0.jpg)](https://www.youtube.com/watch?v=fUBjLc5aUH8)
+[![Debian Bookworm - Qtile Installation](https://img.youtube.com/vi/fUBjLc5aUH8/0.jpg)](https://www.youtube.com/watch?v=fUBjLc5aUH8){:target="_blank"}
 
 ## Qtile for Xorg Install
 

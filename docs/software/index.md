@@ -64,7 +64,7 @@ tags:
 
 11. **Compositor**
     - **Picom**: A compositor for X that provides features like transparency and shadow effects.
-      - Installation: [Picom GitHub](https://github.com/FT-Labs/picom)
+      - Installation: [Picom GitHub](https://github.com/FT-Labs/picom){:target="_blank"}
 
 12. **Text Editors**
     - **Geany**: A lightweight and fast text editor with basic IDE features.

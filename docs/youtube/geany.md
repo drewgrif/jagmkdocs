@@ -13,9 +13,9 @@ tags:
 
 
 ## First Video
-[![Geany - My favorite text editor](https://img.youtube.com/vi/EuwAf_qVj14/0.jpg)](https://www.youtube.com/watch?v=EuwAf_qVj14)
+[![Geany - My favorite text editor](https://img.youtube.com/vi/EuwAf_qVj14/0.jpg)](https://www.youtube.com/watch?v=EuwAf_qVj14){:target="_blank"}
 
 
 
 ## Second Video
-[![Geany - My favorite text editor - Part 2](https://img.youtube.com/vi/ZZGKICzIuzQ/0.jpg)](https://www.youtube.com/watch?v=ZZGKICzIuzQ)
+[![Geany - My favorite text editor - Part 2](https://img.youtube.com/vi/ZZGKICzIuzQ/0.jpg)](https://www.youtube.com/watch?v=ZZGKICzIuzQ){:target="_blank"}
