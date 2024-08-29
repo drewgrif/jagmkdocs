@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - YouTube:
       - Overview: youtube/index.md
+      - Setup: mysetup.md
       - Qtile: youtube/qtile.md
       - Geany: youtube/geany.md 
   - Fav Software:
