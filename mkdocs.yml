@@ -28,6 +28,7 @@ nav:
           - Nextcloud: docker/nextcloud.md
           - Immich: docker/immich.md
       - Jitsi: homelab/jitsi.md
+      - Plex: homelab/plex.md
   - About: about.md  
   - Tags: tags.md
   - Contact: contact.md        
