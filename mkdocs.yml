@@ -40,6 +40,7 @@ copyright: Copyright &copy; 2024 JustAGuy Linux
 theme:
   name: material
   logo: assets/logo_j.png
+  favicon: assets/jaglfav.png
   palette:
 
     # Palette toggle for automatic mode
