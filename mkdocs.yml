@@ -75,10 +75,9 @@ theme:
 plugins: 
   - search
   - social
+  - rss
   - tags:
       tags_file: tags.md
-  - rss:
-       match_path: "docs/.*"
 
 markdown_extensions:
 
