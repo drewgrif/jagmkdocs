@@ -78,11 +78,7 @@ plugins:
   - tags:
       tags_file: tags.md
   - rss:
-      feed_title: JustAGuy Linux Library
-      feed_description: Documentation and articles from the JustAGuyLinux YouTube channel and more
-      feed_author: JustAGuy Linux
-      feed_link: https://justaguylinux.com
-      feed_language: en
+       match_path: "docs/.*"
 
 markdown_extensions:
 
