@@ -12,6 +12,7 @@
 
 ## Cloudflare
 Now the template is ready we will build the first version of the site to make sure everything is ready to go!
+
 - Go to https://dash.cloudflare.com
 - Go to `Workers & Pages`
 - Click `Create`
