@@ -6,6 +6,7 @@ nav:
   - YouTube:
       - Overview: youtube/index.md
       - Setup: mysetup.md
+      - Using MkDocs: youtube/mkdocs.md
       - Qtile: youtube/qtile.md
       - Geany: youtube/geany.md 
   - Fav Software:
