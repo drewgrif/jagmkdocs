@@ -74,6 +74,7 @@ theme:
 
 plugins: 
   - search
+  - rss
   - social
   - tags:
       tags_file: tags.md
