@@ -15,6 +15,7 @@ nav:
       - Geany: software/geany.md
   - Thoughts:
       - Overview: thoughts/index.md
+      - Cosmic: thoughts/cosmic.md
       - Kernel: thoughts/kernel.md
       - Rolling Release: thoughts/rolling_release.md
       - Whoogle: thoughts/whoogle.md
