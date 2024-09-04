@@ -52,6 +52,8 @@ theme:
     - navigation.footer
     - navigation.indexes
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
     - search.suggest
     - search.highlight
     - search.share
