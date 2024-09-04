@@ -45,7 +45,7 @@ theme:
   favicon: assets/jaglfav.png
   palette:
     scheme: slate
-    primary: red
+    primary: custom
 
   features:
     - navigation.top
