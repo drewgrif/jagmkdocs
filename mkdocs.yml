@@ -51,6 +51,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.tabs
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
