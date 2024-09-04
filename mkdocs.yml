@@ -110,3 +110,5 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@justaguylinux
       
+extra_css:
+  - stylesheets/extra.css
