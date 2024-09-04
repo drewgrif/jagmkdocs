@@ -62,6 +62,7 @@ plugins:
   - search
   - social
   - glightbox
+  - typeset
   - tags:
       tags_file: tags.md
 
