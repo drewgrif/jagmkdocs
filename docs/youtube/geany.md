@@ -19,3 +19,6 @@ tags:
 
 ## Second Video
 [![Geany - My favorite text editor - Part 2](https://img.youtube.com/vi/ZZGKICzIuzQ/0.jpg)](https://www.youtube.com/watch?v=ZZGKICzIuzQ){:target="_blank"}
+
+
+![type:video](https://www.youtube.com/embed/ZZGKICzIuzQ)
