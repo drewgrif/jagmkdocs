@@ -51,9 +51,6 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
-# - navigation.tabs
-# - navigation.tabs.sticky
-# - navigation.sections
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
@@ -64,6 +61,7 @@ theme:
 plugins: 
   - search
   - social
+  - glightbox
   - tags:
       tags_file: tags.md
 
