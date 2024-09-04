@@ -60,6 +60,7 @@ theme:
 
 plugins: 
   - search
+  - mkdocs-video
   - social
   - tags:
       tags_file: tags.md
