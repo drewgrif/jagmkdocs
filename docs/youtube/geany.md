@@ -8,7 +8,8 @@ tags:
 # Geany
 
 > [!NOTE]
-> While there is two videos to watch, you may want to check the [documenation](/documentation/software/geany) in the [software center](/documentation/software).
+
+> While there is two videos to watch, you may want to check the [documentation](/documentation/software/geany) in the [software center](/documentation/software).
 
 
 ## First Video
