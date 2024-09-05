@@ -17,7 +17,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
-    - navigation.sections
+  #  - navigation.sections
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
