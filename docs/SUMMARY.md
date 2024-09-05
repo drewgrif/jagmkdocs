@@ -1,4 +1,4 @@
-- [Start Here](index.md)
+- [🏠 Home](index.md)
 - [YouTube](youtube/)
 - [Knowledge Base](documentation/)
 - [Thoughts](thoughts/)
