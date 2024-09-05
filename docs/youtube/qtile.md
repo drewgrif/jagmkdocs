@@ -5,9 +5,7 @@ tags:
     - youtube
     - window manager
 ---
-# Show notes for the following YouTube Video
-
-[![Debian Bookworm - Qtile Installation](https://img.youtube.com/vi/fUBjLc5aUH8/0.jpg)](https://www.youtube.com/watch?v=fUBjLc5aUH8){:target="_blank"}
+![type:video](https://www.youtube.com/embed/fUBjLc5aUH8){:target="_blank"}
 
 ## Qtile for Xorg Install
 
