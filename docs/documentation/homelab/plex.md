@@ -5,7 +5,7 @@ tags:
     - homelab
     - installation
 ---
-# Plex Media Server
+# Plex 
 
 ## Introduction
 

@@ -1,33 +1,7 @@
-- Start: index.md
-- YouTube:
-  - 📋 Overview: youtube/index.md
-  - ⚙️ Setup: mysetup.md
-  - 📚 Using MkDocs: youtube/mkdocs.md
-  - 🪟 Qtile: youtube/qtile.md
-  - 📝 Geany: youtube/geany.md
-- Documentation:
-  - 📋 Overview: software/index.md
-  - 🖋️ Micro: software/micro.md
-  - 📝 Geany: software/geany.md
-  - 📞 Jitsi: homelab/jitsi.md
-  - 📺 Plex: homelab/plex.md
-	- 🏡🔬 HomeLab:
-		- 📋 Overview: homelab/index.md
-		- 🛠️ Hardware: homelab/n3.md
-	- ☁️ Nextcloud:
-		- ⚙️ Setup: nextcloud/install.md
-		- 💾 USB Drive: nextcloud/ext_usb_drive.md
-	- 🐳 Docker:
-		- 📋 Overview: docker/index.md
-		- ⚙️ Setup: docker/setup.md
-		- ☁️ Nextcloud: docker/nextcloud.md
-		- 📦 Immich: docker/immich.md
-- Thoughts:
-  - 📋 Overview: thoughts/index.md
-  - 🌌 Cosmic: thoughts/cosmic.md
-  - 🖥️ Kernel: thoughts/kernel.md
-  - 🔄 Rolling Release: thoughts/rolling_release.md
-  - 🔍 Whoogle: thoughts/whoogle.md
-- ℹ️ About: about.md
-- 🏷️ Tags: tags.md
-- 📧 Contact: contact.md
+- [🏠 Home](index.md)
+- [🎥 YouTube](youtube/)
+- [📚 Knowledge Base](documentation/)
+- [💭 Thoughts](thoughts/)
+- [🏷️ Tags](tags.md)
+- [📧 Contact](contact.md)
+- [ℹ️ About](about.md)
