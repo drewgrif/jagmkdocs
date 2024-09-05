@@ -1,41 +1,7 @@
 site_name: JustAGuyLinux Library
 site_description: Documentation and articles from the JustAGuyLinux YouTube channel and more
 site_url: https://justaguylinux.com
-nav:
-  - Home: index.md
-  - YouTube:
-      - Overview: youtube/index.md
-      - Setup: mysetup.md
-      - Using MkDocs: youtube/mkdocs.md
-      - Qtile: youtube/qtile.md
-      - Geany: youtube/geany.md 
-  - Fav Software:
-      - Overview: software/index.md
-      - Micro: software/micro.md
-      - Geany: software/geany.md
-  - Thoughts:
-      - Overview: thoughts/index.md
-      - Cosmic: thoughts/cosmic.md
-      - Kernel: thoughts/kernel.md
-      - Rolling Release: thoughts/rolling_release.md
-      - Whoogle: thoughts/whoogle.md
-  - HomeLab:
-      - Overview: homelab/index.md
-      - Hardware: homelab/n3.md
-      - Nextcloud:
-          - Setup: nextcloud/install.md
-          - USB Drive: nextcloud/ext_usb_drive.md
-      - Docker:
-          - Overview: docker/index.md
-          - Setup: docker/setup.md
-          - Nextcloud: docker/nextcloud.md
-          - Immich: docker/immich.md
-      - Jitsi: homelab/jitsi.md
-      - Plex: homelab/plex.md
-  - About: about.md  
-  - Tags: tags.md
-  - Contact: contact.md        
-      
+     
 # Copyright
 copyright: Copyright &copy; 2024 JustAGuy Linux
 
@@ -51,6 +17,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.sections
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
