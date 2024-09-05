@@ -1,6 +1,6 @@
 # MkDocs
 
-[![My Personal Insight Archive and Knowledge Base using MKDocs](https://img.youtube.com/vi/9V0NpLPXS-Y/0.jpg)](https://www.youtube.com/watch?v=9V0NpLPXS-Y){:target="_blank"}
+![type:video](https://www.youtube.com/embed/9V0NpLPXS-Y){:target="_blank"}
 
 ## GitHub
 - Login to your github account.
