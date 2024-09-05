@@ -1,5 +1,6 @@
-- [Welcome](index.md)
-- [Knowledge Base](software/)
+- [Start Here](index.md)
+- [YouTube](youtube/)
+- [Knowledge Base](documentation/)
 - [Thoughts](thoughts/)
 - [Tags](tags.md)
 - [Contact](contact.md)
