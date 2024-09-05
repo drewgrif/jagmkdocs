@@ -33,23 +33,6 @@ plugins:
       tags_file: tags.md
   - literate-nav:
       nav_file: SUMMARY.md
-  - rss:
-      categories:
-        - tags
-      abstract_chars_count: -1
-      date_from_meta:
-        as_creation: "date" # means from page.meta.date
-        as_update: "git" # means from git log
-        datetime_format: "%Y-%m-%d %H:%M"
-        default_time: "09:30"
-        default_timezone: America/Chicago
-      enabled: true
-      feeds_filenames:
-        rss_created: feed.xml
-      feed_ttl: 60
-      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
-      use_git: true
-      use_material_social_cards: true
 
 markdown_extensions:
 
