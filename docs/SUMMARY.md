@@ -1,0 +1,6 @@
+- [Welcome](index.md)
+- [Knowledge Base](software/)
+- [Thoughts](thoughts/)
+- [Tags](tags.md)
+- [Contact](contact.md)
+- [About](about.md)
