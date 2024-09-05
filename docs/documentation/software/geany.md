@@ -83,8 +83,11 @@ In fact, if you have a Plugin enabled (i.e. Tree-browser) you can set custom key
 
 ### split-window
 
-## Geany Part 2 video
-[![Associated video with this document](https://img.youtube.com/vi/ZZGKICzIuzQ/0.jpg)](https://www.youtube.com/watch?v=ZZGKICzIuzQ "Geany Part 2")
+!!! note
+
+	- [YouTube video on Geany Part 1](https://www.youtube.com/EuwAf_qVj14){:target="_blank"}
+	
+	- [YouTube video on Geany Part 2](https://www.youtube.com/ZZGKICzIuzQ){:target="_blank"}
 
 
 ## Conclusion
