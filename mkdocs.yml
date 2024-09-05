@@ -33,6 +33,7 @@ plugins:
       tags_file: tags.md
   - literate-nav:
       nav_file: SUMMARY.md
+  - rss
 
 markdown_extensions:
 
