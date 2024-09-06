@@ -2,7 +2,7 @@
 
 Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy." I try my best but am not always successful. If you’ve ever found yourself lost in the labyrinth of Linux documentation or scratching your head over YouTube video summaries, you’re not alone.
 
-!!! tip "Latest Pages Added"
+!!! tip "Latest Docs Added"
 
     - **[MkDocs - Video/Documentation](youtube/mkdocs.md)**
 
