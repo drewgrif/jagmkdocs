@@ -7,9 +7,9 @@ tags:
 
 Welcome to the official page for [Just A Guy Linux](https://youtube.com/justaguylinux)! Here, you can find everything related to my YouTube channel where I share all things Linux, tech tips, tutorials, and more.
 
-## About the Channel
+## 📹 About the Channel
 
-📹 **Channel Overview:**
+ **Channel Overview:**
 
 On my channel, you'll find:
 - **Linux Tutorials:** Learn how to use, configure, and troubleshoot Linux distributions.
@@ -17,11 +17,11 @@ On my channel, you'll find:
 - **Recommendation:** In-depth reviews of Linux software and hardware.
 - **Live Streams:** Join live discussions and Q&A sessions.
 
-## Follow and Subscribe
+## 🎬 Follow and Subscribe
 
 Don’t miss out on any new content! Subscribe to my channel and follow me on social media for the latest updates.
 
-- 🎬 **YouTube Channel:** [Just A Guy Linux](https://youtube.com/justaguylinux)
+- **YouTube Channel:** [Just A Guy Linux](https://youtube.com/justaguylinux)
 
 Thank you for visiting, and I hope you enjoy the content!
 
