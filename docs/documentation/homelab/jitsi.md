@@ -9,7 +9,8 @@ tags:
 # 🎥 Jitsi
 
 > This installation is how I installed Jitsi on a Linode server.
-	- Currently using the Dedicated 4 GB RAM | 2 CPU |  80 GB Disk for $36/mo.
+
+`Currently using the Dedicated 4 GB RAM | 2 CPU |  80 GB Disk for $36/mo.`
 
 > [Linode - Sign up and receive a $100, 60-day credit](https://www.linode.com/lp/refer/?r=06e69fe957f6b439e07b808b83b93da9f29f1f2c){:target="_blank"}
 
