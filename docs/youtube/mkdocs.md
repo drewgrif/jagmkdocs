@@ -1,6 +1,6 @@
 # MkDocs
 
-![type:video](https://youtu.be/9V0NpLPXS-Y){:target="_blank"}
+![type:video](https://youtube.com/embed/9V0NpLPXS-Y){:target="_blank"}
 
 ## GitHub
 - Login to your github account.
