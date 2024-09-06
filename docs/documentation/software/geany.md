@@ -52,7 +52,10 @@ No need to change the spellcheck
 ### geany-plugin-insertnum
 Added 06/16/2024
 
-![2024-06-16_10-27](https://github.com/drewgrif/documentation/assets/11249871/eb776994-f26e-474b-ad29-1537246000fc)
+<p align="center">
+    <img width="600" src="https://github.com/drewgrif/documentation/assets/11249871/eb776994-f26e-474b-ad29-1537246000fc" alt="logo">
+</p>
+
 
 ### geany-plugin-lineoperations
 Added 07/04/2024
