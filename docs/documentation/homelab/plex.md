@@ -5,13 +5,13 @@ tags:
     - homelab
     - installation
 ---
-# Plex 
+# 📺 Plex 
 
-## Introduction
+## 📖 Introduction
 
 **This guide assumes you are starting with a headless Debian server.** It provides step-by-step instructions for installing Plex Media Server, including optional enhancements and handling repository keys.
 
-## Installation Steps
+## 🛠️ Installation Steps
 
 ### 1. Install Required Packages
 
