@@ -29,8 +29,6 @@ theme:
 plugins: 
   - search
   - mkdocs-video:
-      is_video: false
-      video_muted: false
       video_controls: True
   - social
   - tags:
