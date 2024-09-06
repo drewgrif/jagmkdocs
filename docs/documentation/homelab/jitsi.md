@@ -183,4 +183,4 @@ sudo systemctl restart prosody.service jicofo.service jitsi-videobridge2.service
 **Note:** Ensure that RDNS for your Linode is set to `jitsi.[DOMAIN_NAME]`.
 ```
 
-In this updated version, emojis are placed directly before the header text to enhance visual appeal and aid in navigation. Adjust the emojis based on your preference or context if needed!
+
