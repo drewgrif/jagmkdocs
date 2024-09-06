@@ -8,7 +8,7 @@ tags:
 
 # 🎥 Jitsi
 
-!!! warning
+!!! warning  "Installed using Linode/Ubuntu 24.04"
 
  This installation is how I installed Jitsi on a Linode server. 
 `Currently using the Dedicated 4 GB RAM | 2 CPU |  80 GB Disk for $36/mo.`
