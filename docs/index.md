@@ -14,8 +14,8 @@ Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy.” �
 - **Podcast**: Currently, I am a regular on [The Linux Cast 🎙️](https://thelinuxcast.org){:target="_blank"} podcast. Sometimes I hang on [The Linux Cast Discord server 💬](https://discord.gg/C9je3KSrFA){:target="_blank"}.
 
 ### 📜 Documentation
-Ever wish you had a guide that explains Linux without making you feel like you need a PhD in computer science? Look no further! I seriously don't have a clue ... most of the time. My goal is to provide documentation that’s clear, helpful, and occasionally useful. 🚀
+Ever wish you had a guide that explains Linux without making you feel like you need a PhD in computer science? Look no further! I seriously don't have a clue ... most of the time. My goal is to provide documentation that’s clear, helpful, and occasionally useful.
 
 ### 🎥📝 YouTube Video Notes
-Struggling to remember what you watched on that 30-minute video? (Me too) I am making an effort to offer a concise summary so you don’t have to replay the entire thing. Working on making this a regular commitment. 📆
+Struggling to remember what you watched on that 30-minute video? (Me too) I am making an effort to offer a concise summary so you don’t have to replay the entire thing. Working on making this a regular commitment.
 
