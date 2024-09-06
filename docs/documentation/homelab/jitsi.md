@@ -6,23 +6,23 @@ tags:
     - documentation
 ---
 
-# Jitsi
+# 🎥 Jitsi
 
-> This installation is how I installed Jitsi on a linode server. 
+> This installation is how I installed Jitsi on a Linode server.
 - Currently using the Dedicated 4 GB RAM | 2 CPU |  80 GB Disk for $36/mo.
 
 > [Linode - Sign up and receive a $100, 60-day credit](https://www.linode.com/lp/refer/?r=06e69fe957f6b439e07b808b83b93da9f29f1f2c){:target="_blank"}
 
-## Domain Setup
+## 🌐 Domain Setup
 You are using a Linode dedicated with 4 cores and 8 GB of RAM, with a static IP and RDNS configured. Ensure you are using Linode DNS.
 
-## Update and Install Necessary Packages
+## 🛠️ Update and Install Necessary Packages
 
 First, update your package list and install necessary transport packages:
 
 ```bash
 sudo apt update
-sudo apt install apt-transport-https
+sudo apt install apt-transport-https gnupg2 nginx-full curl
 ```
 
 Ensure the `universe` repository is added:
@@ -50,7 +50,7 @@ Add the following lines, replacing `x.x.x.x` with your static IP:
 x.x.x.x jitsi.[DOMAIN_NAME]
 ```
 
-## Configure Firewall
+## 🔐 Configure Firewall
 
 Allow necessary ports through the firewall:
 
@@ -70,9 +70,9 @@ sudo ufw status
 sudo ufw enable
 ```
 
-## Installing Jitsi
+## 🚀 Installing Jitsi
 
-### Add Prosody Repository
+### 📦 Add Prosody Repository
 
 Add the Prosody repository and install `lua5.2`:
 
@@ -82,7 +82,7 @@ echo "deb [signed-by=/etc/apt/keyrings/prosody-debian-packages.key] http://packa
 sudo apt install lua5.2
 ```
 
-### Add Jitsi Repository
+### 🔗 Add Jitsi Repository
 
 Add the Jitsi repository and install Jitsi Meet:
 
@@ -100,9 +100,9 @@ sudo apt install jitsi-meet
 
 **Note:** Ensure you use the correct hostname and configure Let's Encrypt for SSL.
 
-## Securing Room Creation
+## 🔒 Securing Room Creation
 
-### Configure Prosody
+### 🛡️ Configure Prosody
 
 Edit the Prosody configuration file:
 
@@ -133,7 +133,7 @@ VirtualHost "guest.jitsi.[DOMAIN_NAME]"
     }
 ```
 
-### Update Jitsi Configuration
+### ⚙️ Update Jitsi Configuration
 
 Edit the Jitsi Meet configuration file:
 
@@ -147,7 +147,7 @@ Search for `anonymousdomain:` and update it:
 anonymousdomain: 'guest.jitsi.[DOMAIN_NAME]',
 ```
 
-### Configure Jicofo
+### 🧩 Configure Jicofo
 
 Edit the Jicofo configuration file:
 
@@ -161,7 +161,7 @@ Update the `auth.URL` property:
 org.jitsi.jicofo.auth.URL=XMPP:jitsi.[DOMAIN_NAME]
 ```
 
-## Register Names
+## 📝 Register Names
 
 Register the Jitsi user:
 
@@ -171,7 +171,7 @@ sudo prosodyctl register user jitsi.[DOMAIN_NAME] password
 
 Use `unregister` to remove a user if needed.
 
-## Restart Services
+## 🔄 Restart Services
 
 Restart the necessary services:
 
@@ -180,3 +180,6 @@ sudo systemctl restart prosody.service jicofo.service jitsi-videobridge2.service
 ```
 
 **Note:** Ensure that RDNS for your Linode is set to `jitsi.[DOMAIN_NAME]`.
+```
+
+In this updated version, emojis are placed directly before the header text to enhance visual appeal and aid in navigation. Adjust the emojis based on your preference or context if needed!
