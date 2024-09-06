@@ -30,8 +30,7 @@ plugins:
   - search
   - mkdocs-video:
       css_style:
-        width: "100%"
-        height: "22.172vw"
+        height: "360px"
   - social
   - tags:
       tags_file: tags.md
