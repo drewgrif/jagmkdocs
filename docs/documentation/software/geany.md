@@ -89,6 +89,6 @@ Hope this helps.  I think Geany is phenomenal.
 
 !!! note
 
-	- [YouTube video on Geany Part 1](https://www.youtube.com/EuwAf_qVj14){:target="_blank"}
+	- [YouTube video on Geany Part 1](https://youtu.be/EuwAf_qVj14){:target="_blank"}
 	
-	- [YouTube video on Geany Part 2](https://www.youtube.com/ZZGKICzIuzQ){:target="_blank"}
+	- [YouTube video on Geany Part 2](https://youtu.be/ZZGKICzIuzQ){:target="_blank"}
