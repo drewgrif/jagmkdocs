@@ -28,7 +28,13 @@ theme:
 
 plugins: 
   - search
-  - mkdocs-video
+  - mkdocs-video:
+      is_video: false
+      video_muted: false
+      video_controls: True
+      css_style:
+        width: "100%"
+        height: 22.172vw;
   - social
   - tags:
       tags_file: tags.md
