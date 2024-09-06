@@ -1,24 +1,10 @@
 # JustAGuyLinux Library
 
-<p style="text-align: center;">
-  <a href="https://twitter.com/justaguylinux" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter" style="width: 30px; height: 30px; margin: 0 10px;">
-  </a>
-  <a href="https://discord.gg/yourserver" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Discord_logo_2021.svg" alt="Discord" style="width: 30px; height: 30px; margin: 0 10px;">
-  </a>
-  <a href="https://www.youtube.com/c/justaguylinux" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2015.svg" alt="YouTube" style="width: 30px; height: 30px; margin: 0 10px;">
-  </a>
-  <a href="https://mastodon.social/@justaguylinux" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Mastodon_logo.svg" alt="Mastodon" style="width: 30px; height: 30px; margin: 0 10px;">
-  </a>
-  <a href="https://github.com/drewgrif" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/GitHub_Logo_2018.svg" alt="GitHub" style="width: 30px; height: 30px; margin: 0 10px;">
-  </a>
-</p>
+Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy." I try my best but am not always successful. If you’ve ever found yourself lost in the labyrinth of Linux documentation or scratching your head over YouTube video summaries, you’re not alone.
 
-Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy." I try my best but am not always successful. If you’ve ever found yourself lost in the labyrinth of Linux documentation or scratching your head over YouTube video summaries, you’re in good company.
+!!! tip "Latest Pages Added"
+
+    - **[MkDocs - Video/Documentation](youtube/mkdocs.md)**
 
 ## Why JustAGuy Linux?
 
