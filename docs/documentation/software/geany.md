@@ -52,10 +52,7 @@ No need to change the spellcheck
 ### geany-plugin-insertnum
 Added 06/16/2024
 
-<p align="center">
-    <img width="600" src="https://github.com/drewgrif/documentation/assets/11249871/eb776994-f26e-474b-ad29-1537246000fc" alt="logo">
-</p>
-
+![2024-06-16_10-27](https://github.com/drewgrif/documentation/assets/11249871/eb776994-f26e-474b-ad29-1537246000fc)
 
 ### geany-plugin-lineoperations
 Added 07/04/2024
@@ -77,7 +74,6 @@ Added 07/04/2024 - not sure about this but giving it a go for a week or two.
  This is a simple plugin that highlights all words that match current word under cursor (see screenshot).
  
  ![2024-07-04_18-32](https://github.com/drewgrif/documentation/assets/11249871/d7b8b813-5cab-4bcf-b5b6-09c6606c1c05)
-
 
 
 ### geany-plugin-vimode
