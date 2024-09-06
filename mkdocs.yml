@@ -21,7 +21,6 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-    - glightbox
     - search.suggest
     - search.highlight
     - search.share
