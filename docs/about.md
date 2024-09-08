@@ -16,3 +16,5 @@ Holy crap!! It was like having a new PC. Very quick. Very snappy and devoid of c
 If I can switch, you can too. Try it. You might like it.
 
 Thanks for stopping by.
+
+![PXL_20240908_165815787 PORTRAIT](https://github.com/user-attachments/assets/8aba21ca-ea06-4c62-98cb-596d253db675)
