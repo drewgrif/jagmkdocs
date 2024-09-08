@@ -19,4 +19,3 @@ Ever wish you had a guide that explains Linux without making you feel like you n
 ## 🎥📝 YouTube Video Notes
 Struggling to remember what you watched on that 30-minute video? (Me too) I am making an effort to offer a concise summary so you don’t have to replay the entire thing. Working on making this a regular commitment.
 
-![PXL_20240908_165815787 PORTRAIT](https://github.com/user-attachments/assets/8aba21ca-ea06-4c62-98cb-596d253db675)
