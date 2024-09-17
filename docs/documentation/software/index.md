@@ -69,6 +69,12 @@ tags:
 ## Text Editors
 - **Geany**: A lightweight and fast text editor with basic IDE features.
   - `sudo apt install geany`
+- **Neovim**: An unbelievably powerful command-line editor
+  - My configuration and a Debian installation file located: [My GitHub Neovim](https://github.com/drewgrif/nvim){:target="_blank"}
+  
+## Version Control
+- **GitHub Desktop**: GitHub Desktop is a user-friendly application that simplifies working with Git repositories on your local computer.
+  - Installation can be AppImage, but I prefer using the DEB file located:  [https://github.com/shiftkey/desktop/releases](https://github.com/shiftkey/desktop){:target="_blank"}
 
 ## Communication
 - **Discord**: A platform for text, voice, and video communication, popular in gaming and online communities.
