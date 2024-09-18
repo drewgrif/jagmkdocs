@@ -15,6 +15,8 @@ tags:
 ![2024-09-18_12-31](https://github.com/user-attachments/assets/8d707349-d51b-49d9-a754-9fb8fe2ea396)
 ![2024-09-18_12-34](https://github.com/user-attachments/assets/fdfea334-b67c-4d2d-88f2-927491464347)
 
+[Geany Themes - add these to ~/.config/geany/colorschemes](https://www.geany.org/download/themes/){:target="_blank"}
+
 ### Preferences
 
 ![2024-06-13_15-46](https://github.com/drewgrif/documentation/assets/11249871/1a27ad84-1fec-4187-909f-ac82900c76f9)
