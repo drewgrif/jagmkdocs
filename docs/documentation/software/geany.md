@@ -9,6 +9,8 @@ tags:
 
 ## Initial Setup
 
+### Colorscheme and Font Selection
+
 ![2024-06-13_15-46](https://github.com/drewgrif/documentation/assets/11249871/1a27ad84-1fec-4187-909f-ac82900c76f9)
 ![2024-06-13_14-44](https://github.com/drewgrif/documentation/assets/11249871/201415fe-d9ad-467d-bfc2-1a7211af3b8e)
 ![2024-06-13_14-46](https://github.com/drewgrif/documentation/assets/11249871/03c633a3-7e68-4454-b9aa-d7e69f1fb82f)
