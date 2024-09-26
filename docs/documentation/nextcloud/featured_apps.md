@@ -19,7 +19,10 @@ Here’s an overview with all the Nexcloud apps and integrations included in the
 3. **Deck**: Visual project management tool for organizing tasks into boards and cards.
 4. **Tasks**: Straightforward to-do list manager for tracking tasks and deadlines effectively.
    - **Integration**: GNOME Endeavour app for enhanced task management.
-   - **Mobile Options**: OpenTasks for Android, iOS sync with Apple Reminders, and Nextcloud Deck for collaborative task management.
+   - **Mobile Options**:
+     - OpenTasks for Android
+     - iOS sync with Apple Reminders
+     - Nextcloud Deck for collaborative task management
 5. **Collectives**: Collaborative knowledge base to organize and share information within teams.
 6. **Element**: A secure chat and collaboration app integrated with Nextcloud for Matrix communication, promoting seamless team interactions.
 7. **Repod**: A podcast app for managing and sharing podcast subscriptions, enhancing team engagement through audio content.
@@ -57,3 +60,4 @@ Here’s an overview with all the Nexcloud apps and integrations included in the
 1. **Bookmarks**: Organize and access most visited links easily.
 2. **Unrounded Corners**: A design feature to enhance the aesthetic appeal of the Nextcloud interface.
 3. **Breeze Dark Theme**: A visually appealing dark theme option that can utilize custom CSS styling for further personalization.
+
