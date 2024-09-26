@@ -1,4 +1,5 @@
-Here’s an overview with all the Nexcloud apps and integrations included in the discussion of **The Linux Cast podcast** recorded September 24, 2024:
+Here’s an overview with all the Nexcloud apps and integrations included in the discussion of 
+**[The Linux Cast 🎙️](https://www.youtube.com/watch?v=wIMengmlmhA){:target="_blank"} podcast** recorded September 24, 2024:
 
 ---
 
