@@ -18,8 +18,8 @@ Here’s an overview with all the Nexcloud apps and integrations included in the
 2. **Collabora Online / OnlyOffice**: Collaborative document editing within Nextcloud, allowing real-time teamwork.
 3. **Deck**: Visual project management tool for organizing tasks into boards and cards.
 4. **Tasks**: Straightforward to-do list manager for tracking tasks and deadlines effectively.
-   - **Integration**: GNOME Endeavour app for enhanced task management.
-   - **Mobile Options**:
+   - Integration: GNOME Endeavour app for enhanced task management.
+   - Mobile Options:
      - OpenTasks for Android
      - iOS sync with Apple Reminders
      - Nextcloud Deck for collaborative task management
