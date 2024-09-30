@@ -66,18 +66,19 @@ insert screen shot
 
 ### Downloading and Installing Nextcloud
 
-- **Download Nextcloud:**
+1. **Download Nextcloud:**
 
     ```shell
     wget https://download.nextcloud.com/server/releases/latest.zip
     ```
 
-- **Install MariaDB:**
+#### Install MariaDB
 
     ```shell
     sudo apt install -y mariadb-server
     sudo mysql_secure_installation
     ```
+    
 - Enter current password for root (enter for none): ```Enter```
 
 - Switch to unix_socker authentication [Y/n] ```Answer 'n'```
