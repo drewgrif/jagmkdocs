@@ -57,14 +57,13 @@ tags:
 	```shell
 	sudo nano /etc/hostname
 	```
-Type the subdomain from cloudflare `ex: my.justaguylinux.cloud`
+	Type the subdomain from cloudflare `ex: my.justaguylinux.cloud`
 
-
-```shell
+	```shell
 	sudo nano /etc/hosts
-```
+	```
 
-Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
+	Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
 
  
 5. **Reboot the Server:**
