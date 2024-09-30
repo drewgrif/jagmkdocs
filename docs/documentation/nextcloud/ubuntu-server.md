@@ -7,95 +7,92 @@ tags:
     - installation
 ---
 
-## Setting Up Cloudflare
+# Setting Up Cloudflare and Nextcloud on Ubuntu Server
 
-1. **Domain is using cloudflare DNS**
-insert screen shot
+## Part 1: Setting Up Cloudflare
 
-2. **[Go to ZERO Trust](https://one.dash.cloudflare.com)**
+1. **Ensure Your Domain Uses Cloudflare DNS**
+   - ![Insert Screenshot](#)
 
-3. **Use Network=>Tunnels**
+2. **Access Cloudflare Zero Trust**
+   - Go to: [Cloudflare Zero Trust](https://one.dash.cloudflare.com)
 
-4. **Create Tunnel using Cloudflared**
+3. **Create a Tunnel**
+   - Navigate to **Network** > **Tunnels**.
 
-5. **Name the Tunnel**
+4. **Create Tunnel Using Cloudflared**
+   - Name the tunnel and select **Debian 64 Bit** architecture.
 
-6. **Select Debian 64 Bit Architecture**
+5. **Copy the Cloudflared Connector**
+   - Install it on your Ubuntu server.
 
-7. **Copy appropriate cloudflared connector**
+6. **Configure Public Hostname**  
+   (Further details needed)
 
-8. **Install on Ubuntu server**
+---
 
-9. **Configure Public Hostname**
+## Part 2: Installing Nextcloud on Ubuntu Server 24.04
 
-
-## Installing Nextcloud on Ubuntu Server 24.04
-
-### After Ubuntu Server Installations
+### Step 1: Initial Setup
 
 1. **Install Necessary Packages:**
 
-    ```shell
+    ```bash
     sudo apt install -y eza redis-server build-essential unzip
     ```
 
 2. **Replace `.bashrc`:**
 
-    ```shell
-    rm .bashrc
+    ```bash
+    rm ~/.bashrc
     wget https://raw.githubusercontent.com/drewgrif/jag_dots/main/.bashrc_server
     mv ~/.bashrc_server ~/.bashrc
     bash
     ```
-    
-3. **Update and Upgrade**
 
-	```shell
-	sudo apt update && sudo apt upgrade -y && sudo apt clean
-	
-	```
+3. **Update and Upgrade:**
 
-4. **Reboot**
+    ```bash
+    sudo apt update && sudo apt upgrade -y && sudo apt clean
+    ```
 
-	```shell
-	sudo reboot
-	```
+4. **Reboot the Server:**
 
-5. **Login**
+    ```bash
+    sudo reboot
+    ```
 
+5. **Log Back In.**
 
-## Downloading and Installing Nextcloud
+---
 
-### Download Nextcloud
+### Step 2: Downloading and Installing Nextcloud
 
-    ```shell
+1. **Download Nextcloud:**
+
+    ```bash
     wget https://download.nextcloud.com/server/releases/latest.zip
     ```
 
-### Install MariaDB
+2. **Install MariaDB:**
 
-    ```shell
+    ```bash
     sudo apt install -y mariadb-server
     sudo mysql_secure_installation
     ```
-    
-- Enter current password for root (enter for none): ```Enter```
 
-- Switch to unix_socker authentication [Y/n] ```Answer 'n'```
+    Follow these prompts:
+    - Current root password: `Enter`
+    - Switch to unix_socket authentication: `n`
+    - Change root password: `y` and set a new password.
+    - Remove anonymous users: `y`
+    - Disallow root login remotely: `y`
+    - Remove test database: `y`
+    - Reload privilege tables: `y`
 
-- Change the root password [Y/n] ```ENTER or 'y'``` and then add one.
+3. **Create Nextcloud Database:**
 
-- Remove anonymous users? [Y/n] ```ENTER or 'y'```
-
-- Disallow root login remotely? [Y/n] ```ENTER or 'y'```
-
-- Remove test database and access to it? [Y/n] ```ENTER or 'y'```
-
-- Reload privilege tables now? [Y/n] ```ENTER or 'y'```
-
-### Create Nextcloud Database
-
-    ```shell
+    ```bash
     sudo mariadb
     ```
 
@@ -107,67 +104,72 @@ insert screen shot
     FLUSH PRIVILEGES;
     ```
 
-    Exit the MariaDB shell with `CTRL+D`.
+    Exit with `CTRL+D`.
 
-### Set Up Apache Webserver
+---
 
-    - **Install Required Packages:**
+### Step 3: Set Up Apache Webserver
 
-        ```shell
-        sudo apt install php php-apcu php-bcmath php-cli php-common php-curl php-gd php-gmp php-imagick php-intl php-mbstring php-mysql php-zip php-xml php-redis
-        ```
+1. **Install Required PHP Packages:**
 
-    - **Enable Apache Modules:**
+    ```bash
+    sudo apt install php php-apcu php-bcmath php-cli php-common php-curl php-gd php-gmp php-imagick php-intl php-mbstring php-mysql php-zip php-xml php-redis
+    ```
 
-        ```shell
-        sudo a2enmod dir env headers mime rewrite ssl
-        sudo phpenmod bcmath gmp imagick intl
-        ```
+2. **Enable Apache Modules:**
 
-    - **Unzip and Move Nextcloud:**
+    ```bash
+    sudo a2enmod dir env headers mime rewrite ssl
+    sudo phpenmod bcmath gmp imagick intl
+    ```
 
-        ```shell
-        unzip latest.zip
-        sudo chown -R www-data:www-data nextcloud
-        sudo mv nextcloud /var/www
-        sudo a2dissite 000-default.conf
-        ```
+3. **Unzip and Move Nextcloud:**
 
-    - **Configure Apache for Nextcloud:**
+    ```bash
+    unzip latest.zip
+    sudo chown -R www-data:www-data nextcloud
+    sudo mv nextcloud /var/www
+    sudo a2dissite 000-default.conf
+    ```
 
-        ```shell
-        sudo micro /etc/apache2/sites-available/nextcloud.conf
-        ```
+4. **Configure Apache for Nextcloud:**
 
-        Add the following contents to `nextcloud.conf`:
+    ```bash
+    sudo micro /etc/apache2/sites-available/nextcloud.conf
+    ```
 
-        ```apache
-        <VirtualHost *:80>
-            DocumentRoot "/var/www/nextcloud"
-            ServerName nextcloud
+    Add the following content:
 
-            <Directory "/var/www/nextcloud/">
-                Options MultiViews FollowSymlinks
-                AllowOverride All
-                Order allow,deny
-                Allow from all
-            </Directory>
+    ```apache
+    <VirtualHost *:80>
+        DocumentRoot "/var/www/nextcloud"
+        ServerName nextcloud
 
-            TransferLog /var/log/apache2/nextcloud_access.log
-            ErrorLog /var/log/apache2/nextcloud_error.log
-        </VirtualHost>
-        ```
+        <Directory "/var/www/nextcloud/">
+            Options MultiViews FollowSymlinks
+            AllowOverride All
+            Require all granted
+        </Directory>
 
-    - **Enable Nextcloud Site and Restart Apache:**
+        TransferLog /var/log/apache2/nextcloud_access.log
+        ErrorLog /var/log/apache2/nextcloud_error.log
+    </VirtualHost>
+    ```
 
-        ```shell
-        sudo a2ensite nextcloud.conf
-        sudo systemctl restart apache2
-        ```
+5. **Enable Nextcloud Site and Restart Apache:**
 
-### Adjust PHP Settings (for Ubuntu Server 24.04)
+    ```bash
+    sudo a2ensite nextcloud.conf
+    sudo systemctl restart apache2
+    ```
 
-    ```shell
+---
+
+### Step 4: Adjust PHP Settings
+
+1. **Edit PHP Configuration:**
+
+    ```bash
     sudo micro /etc/php/8.2/apache2/php.ini
     ```
 
@@ -179,110 +181,25 @@ insert screen shot
     max_execution_time = 360
     post_max_size = 16G
     date.timezone = America/New_York
-    opcache.enable=1
-    opcache.interned_strings_buffer=32
-    opcache.max_accelerated_files=10000
-    opcache.memory_consumption=128
-    opcache.save_comments=1
-    opcache.revalidate_freq=1
+    opcache.enable = 1
+    opcache.interned_strings_buffer = 32
+    opcache.max_accelerated_files = 10000
+    opcache.memory_consumption = 128
+    opcache.save_comments = 1
+    opcache.revalidate_freq = 1
     ```
 
-### Restart Apache
+2. **Restart Apache:**
 
-    ```shell
+    ```bash
     sudo systemctl restart apache2
     ```
 
 ---
 
-For additional configuration related to using an external USB drive, see [02 Using an external USB drive](#).
-sudo mysql_secure_installation
-```
+### Additional Configuration
+For configurations related to using an external USB drive, see [02 Using an External USB Drive](#).
 
-#### Create Nextcloud Database
+---
 
-```shell
-sudo mariadb
-```
-
-```shell
-CREATE DATABASE nextcloud;
-```
-```shell
-GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY 'mypassword';
-```
-```shell
-FLUSH PRIVILEGES;
-```
-CTRL+D to exit
-
-#### Apache Webserver Setup
-
-Installing the required packages to support Apache:
-
-``` shell
-sudo apt install php php-apcu php-bcmath php-cli php-common php-curl php-gd php-gmp php-imagick php-intl php-mbstring php-mysql php-zip php-xml
-```
-```shell
-sudo a2enmod dir env headers mime rewrite ssl
-```
-```shell
-sudo phpenmod bcmath gmp imagick intl
-```
-
-#### Unzip and move nextcloud
-
-```shell
-unzip latest.zip
-sudo chown -R www-data:www-data nextcloud
-sudo mv nextcloud.learnlinux.cloud /var/www
-sudo a2dissite 000-default.conf
-```
-```shell
-sudo micro /etc/apache2/sites-available/nextcloud.conf
-```
-Contents of nextcloud.conf file.
-```
-<VirtualHost *:80>
-    DocumentRoot "/var/www/nextcloud"
-    ServerName nextcloud
-
-    <Directory "/var/www/nextcloud/">
-        Options MultiViews FollowSymlinks
-        AllowOverride All
-        Order allow,deny
-        Allow from all
-   </Directory>
-
-   TransferLog /var/log/apache2/nextcloud_access.log
-   ErrorLog /var/log/apache2/nextcloud_error.log
-
-</VirtualHost>
-```
-
-```shell
-sudo a2ensite nextcloud.conf
-```
-
-As of Debian 12
-``` shell
-sudo micro /etc/php/8.2/apache2/php.ini
-```
-
-Adjust the following parameters:
-
-* memory_limit = 512M
-* upload_max_filesize = 16G
-* max_execution_time = 360
-* post_max_size = 16G
-* date.timezone = America/New_York
-* opcache.enable=1
-* opcache.interned_strings_buffer=32
-* opcache.max_accelerated_files=10000
-* opcache.memory_consumption=128
-* opcache.save_comments=1
-* opcache.revalidate_freq=1
-
-```shell
-sudo systemctl restart apache2
-```
+Feel free to adjust any details or add specific troubleshooting steps! Let me know if you need further assistance.
