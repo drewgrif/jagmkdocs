@@ -57,9 +57,9 @@ insert screen shot
 
 4. **Reboot**
 
-```shell
-sudo reboot
-```
+	```shell
+	sudo reboot
+	```
 
 5. **Login**
 
@@ -79,8 +79,12 @@ sudo reboot
     sudo mysql_secure_installation
     ```
 - Enter current password for root (enter for none): ```Enter```
+
 - Switch to unix_socker authentication [Y/n] ```Answer 'n'```
-- Change the root password [Y/n] ```Answer 'y'```
+
+- Change the root password [Y/n] ```Answer 'y'``` and then add one.
+
+- Remove anonymous users? [Y/n] ```Answer 'y'```
 
 3. **Create Nextcloud Database:**
 
