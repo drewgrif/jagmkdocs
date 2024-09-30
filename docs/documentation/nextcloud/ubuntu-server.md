@@ -14,17 +14,13 @@ tags:
 1. **Ensure Your Domain Uses Cloudflare DNS**
    - ![Insert Screenshot](#)
 
-2. **Access Cloudflare Zero Trust**
-   - Go to: [Cloudflare Zero Trust](https://one.dash.cloudflare.com)
+2. **[Cloudflare Zero Trust](https://one.dash.cloudflare.com)**
 
-3. **Create a Tunnel**
-   - Navigate to **Network** > **Tunnels**.
+3. **Navigate to Network > Tunnels**.
 
-4. **Create Tunnel Using Cloudflared**
-   - Name the tunnel and select **Debian 64 Bit** architecture.
+4. **Create the tunnel and select Debian 64 Bit architecture.**
 
-5. **Copy the Cloudflared Connector**
-   - Install it on your Ubuntu server.
+5. **Copy the Cloudflared Connector and install on Ubuntu 24.04 server**
 
 6. **Configure Public Hostname**  
    (Further details needed)
@@ -198,16 +194,27 @@ Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
         Some of these will need changed others will need uncommnented and changed.
 
 		memory_limit = 512M
+		
 		upload_max_filesize = 2G
+		
 		max_execution_time = 360
+		
 		post_max_size = 2G
+		
 		date.timezone = America/New_York
+		
 		opcache.enable = 1
+		
 		opcache.interned_strings_buffer = 32
+		
 		opcache.max_accelerated_files = 10000
+		
 		opcache.memory_consumption = 128
+		
 		opcache.save_comments = 1
+		
 		opcache.revalidate_freq = 1
+		
   
 
 2. **Restart Apache:**
