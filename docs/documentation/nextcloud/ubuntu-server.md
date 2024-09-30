@@ -137,7 +137,10 @@ Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
 
     ```bash
     sudo a2enmod dir env headers mime rewrite ssl
-    sudo phpenmod bcmath gmp imagick intl
+    ```
+    
+    ```bash
+    sudo phpenmod bcmath gmp imagick intl redis
     ```
 
 3. **Unzip and Move Nextcloud:**
