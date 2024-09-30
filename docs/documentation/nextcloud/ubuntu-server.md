@@ -48,28 +48,28 @@ tags:
 
 3. **Update and Upgrade:**
 
- ```bash
+	```bash
     sudo apt update && sudo apt upgrade -y && sudo apt clean
- ```
+	```
 
 4. **Updating hostname**
 
-```shell
-sudo nano /etc/hostname
-```
+	```shell
+	sudo nano /etc/hostname
+	```
 Type the subdomain from cloudflare `ex: my.justaguylinux.cloud`
 
-```shell
-sudo nano /etc/hosts
-```
+	```shell
+	sudo nano /etc/hosts
+	```
 Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
 
  
 5. **Reboot the Server:**
 
-```bash
- sudo reboot
-```
+	```bash
+	sudo reboot
+	```
 
 6. **Log Back In.**
 
