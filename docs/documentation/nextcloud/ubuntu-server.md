@@ -66,13 +66,13 @@ insert screen shot
 
 ### Downloading and Installing Nextcloud
 
-1. **Download Nextcloud:**
+- **Download Nextcloud:**
 
     ```shell
     wget https://download.nextcloud.com/server/releases/latest.zip
     ```
 
-2. **Install MariaDB:**
+- **Install MariaDB:**
 
     ```shell
     sudo apt install -y mariadb-server
@@ -82,9 +82,15 @@ insert screen shot
 
 - Switch to unix_socker authentication [Y/n] ```Answer 'n'```
 
-- Change the root password [Y/n] ```Answer 'y'``` and then add one.
+- Change the root password [Y/n] ```ENTER or 'y'``` and then add one.
 
-- Remove anonymous users? [Y/n] ```Answer 'y'```
+- Remove anonymous users? [Y/n] ```ENTER or 'y'```
+
+- Disallow root login remotely? [Y/n] ```ENTER or 'y'```
+
+- Remove test database and access to it? [Y/n] ```ENTER or 'y'```
+
+- Reload privilege tables now? [Y/n] ```ENTER or 'y'```
 
 3. **Create Nextcloud Database:**
 
