@@ -64,15 +64,15 @@ insert screen shot
 5. **Login**
 
 
-### Downloading and Installing Nextcloud
+## Downloading and Installing Nextcloud
 
-1. **Download Nextcloud:**
+### Download Nextcloud
 
     ```shell
     wget https://download.nextcloud.com/server/releases/latest.zip
     ```
 
-#### Install MariaDB
+### Install MariaDB
 
     ```shell
     sudo apt install -y mariadb-server
@@ -93,7 +93,7 @@ insert screen shot
 
 - Reload privilege tables now? [Y/n] ```ENTER or 'y'```
 
-3. **Create Nextcloud Database:**
+### Create Nextcloud Database
 
     ```shell
     sudo mariadb
@@ -109,7 +109,7 @@ insert screen shot
 
     Exit the MariaDB shell with `CTRL+D`.
 
-4. **Set Up Apache Webserver:**
+### Set Up Apache Webserver
 
     - **Install Required Packages:**
 
@@ -165,7 +165,7 @@ insert screen shot
         sudo systemctl restart apache2
         ```
 
-5. **Adjust PHP Settings (for Ubuntu Server 24.04):**
+### Adjust PHP Settings (for Ubuntu Server 24.04)
 
     ```shell
     sudo micro /etc/php/8.2/apache2/php.ini
@@ -187,7 +187,7 @@ insert screen shot
     opcache.revalidate_freq=1
     ```
 
-6. **Restart Apache:**
+### Restart Apache
 
     ```shell
     sudo systemctl restart apache2
