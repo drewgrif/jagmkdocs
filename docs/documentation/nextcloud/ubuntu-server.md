@@ -56,13 +56,26 @@ tags:
     sudo apt update && sudo apt upgrade -y && sudo apt clean
     ```
 
-4. **Reboot the Server:**
+4. **Updating hostname**
+
+```shell
+sudo nano /etc/hostname
+```
+Type the subdomain from cloudflare `ex: my.justaguylinux.cloud`
+
+```shell
+sudo nano /etc/hosts
+```
+Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
+
+ 
+5. **Reboot the Server:**
 
     ```bash
     sudo reboot
     ```
 
-5. **Log Back In.**
+6. **Log Back In.**
 
 ---
 
@@ -182,21 +195,20 @@ tags:
     ```
 
     !!! note "php.ini"
-        Some of these will need changed others will need uncommnented an changed.
+        Some of these will need changed others will need uncommnented and changed.
 
-    ```ini
-    memory_limit = 512M
-    upload_max_filesize = 2G
-    max_execution_time = 360
-    post_max_size = 2G
-    date.timezone = America/New_York
-    opcache.enable = 1
-    opcache.interned_strings_buffer = 32
-    opcache.max_accelerated_files = 10000
-    opcache.memory_consumption = 128
-    opcache.save_comments = 1
-    opcache.revalidate_freq = 1
-    ```
+		memory_limit = 512M
+		upload_max_filesize = 2G
+		max_execution_time = 360
+		post_max_size = 2G
+		date.timezone = America/New_York
+		opcache.enable = 1
+		opcache.interned_strings_buffer = 32
+		opcache.max_accelerated_files = 10000
+		opcache.memory_consumption = 128
+		opcache.save_comments = 1
+		opcache.revalidate_freq = 1
+  
 
 2. **Restart Apache:**
 
