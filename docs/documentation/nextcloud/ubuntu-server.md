@@ -59,9 +59,11 @@ tags:
 	```
 Type the subdomain from cloudflare `ex: my.justaguylinux.cloud`
 
-	```shell
+
+```shell
 	sudo nano /etc/hosts
-	```
+```
+
 Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
 
  
@@ -155,7 +157,7 @@ Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
 4. **Configure Apache for Nextcloud:**
 
     ```bash
-    sudo micro /etc/apache2/sites-available/nextcloud.conf
+    sudo nano /etc/apache2/sites-available/nextcloud.conf
     ```
 
     Add the following content:
