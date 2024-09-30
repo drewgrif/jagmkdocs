@@ -83,9 +83,9 @@ tags:
 
     Follow these prompts:
     
-    * Current root password: `Enter`
+    - Current root password: `Enter`
     
-    * Switch to unix_socket authentication: `n`
+    - Switch to unix_socket authentication: `n`
     
     * Change root password: `y` and set a new password.
     
