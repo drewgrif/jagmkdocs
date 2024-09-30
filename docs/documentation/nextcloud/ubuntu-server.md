@@ -87,15 +87,15 @@ tags:
     
     - Switch to unix_socket authentication: `n`
     
-    * Change root password: `y` and set a new password.
+    - Change root password: `Enter or Y` and set a new password.
     
-    * Remove anonymous users: `y`
+    - Remove anonymous users: `Enter or Y`
     
-    * Disallow root login remotely: `y`
+    - Disallow root login remotely: `Enter or Y`
     
-    * Remove test database: `y`
+    - Remove test database: `Enter or Y`
     
-    * Reload privilege tables: `y`
+    - Reload privilege tables: `Enter or Y`
     
 
 3. **Create Nextcloud Database:**
