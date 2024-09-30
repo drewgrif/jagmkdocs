@@ -178,12 +178,11 @@ tags:
 1. **Edit PHP Configuration:**
 
     ```bash
-    sudo micro /etc/php/8.2/apache2/php.ini
+    sudo micro /etc/php/8.3/apache2/php.ini
     ```
 
     !!! note "php.ini"
-    
-    Some of these will need changed others will need uncommnented an changed.
+        Some of these will need changed others will need uncommnented an changed.
 
     ```ini
     memory_limit = 512M
