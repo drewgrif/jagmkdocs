@@ -181,13 +181,15 @@ tags:
     sudo micro /etc/php/8.2/apache2/php.ini
     ```
 
-    Update the following parameters:
+    !!! note "php.ini"
+    
+    Some of these will need changed others will need uncommnented an changed.
 
     ```ini
     memory_limit = 512M
-    upload_max_filesize = 16G
+    upload_max_filesize = 2G
     max_execution_time = 360
-    post_max_size = 16G
+    post_max_size = 2G
     date.timezone = America/New_York
     opcache.enable = 1
     opcache.interned_strings_buffer = 32
