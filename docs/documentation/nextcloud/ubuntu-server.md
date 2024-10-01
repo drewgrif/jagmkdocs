@@ -34,7 +34,7 @@ tags:
 1. **Install Necessary Packages:**
 
     ```bash
-    sudo apt install -y eza redis-server build-essential unzip
+    sudo apt install -y eza redis-server build-essential unzip libmagickwand-dev librsvg2-dev
     ```
 
 2. **Replace `.bashrc`:**
@@ -253,3 +253,19 @@ tags:
     ```
 
 ---
+
+### Step 5: Nextcloud via Web Browser
+
+1. **Install via Web:  https://my.justaguylinux.cloud**
+
+2. **Install recommended applications**
+
+---
+
+## Part 3: Dealing with Errors 
+
+ !!! note 
+	Found in the Administative Settings Overview
+	
+ 
+	
