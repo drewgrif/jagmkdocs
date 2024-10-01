@@ -210,7 +210,7 @@ tags:
 1. **Edit PHP Configuration:**
 
     ```bash
-    sudo micro /etc/php/8.3/apache2/php.ini
+    sudo nano /etc/php/8.3/apache2/php.ini
     ```
 
     !!! note "php.ini"
@@ -310,8 +310,11 @@ tags:
 	- You have not set or verified your email server configuration yet.
 	
 	```bash
-	sudo nano /var/www.justaguylinux.cloud/config/config.php
+	sudo nano /var/www/my.justaguylinux.cloud/config/config.php
 	```
+	**Remove `'maintenance' => false,`**
+	
+	**Add:**
 	
 	```php
     'mail_from_address' => 'nextcloud',
@@ -334,4 +337,34 @@ tags:
 	),
 	'default_phone_region' => 'US',
 	'overwriteprotocol' => 'https',
+	```
+
+5. **Some headers are not set correctly on your instance - The `Strict-Transport-Security` HTTP header is not set (should be at least `15552000` seconds). **
+
+	```bash
+	sudo nano /etc/apache2/sites-available/my.justaguylinux.cloud.conf
+	```
+	
+	**Add after </Directory**
+	
+	```ini
+	<IfModule mod_headers.c>
+      Header always set Strict-Transport-Security "max-age=15552000; in>
+    </IfModule>
+    ```
+    **Restart apache2**
+    
+    ```bash
+    sudo systemctl restart apache2
+    ```
+
+6. **Array:  Not a warning but good idea**
+
+	```bash
+	'trusted_domains' => 
+	array (
+    0 => '192.168.254.80',
+    1 => 'ventian',
+    2 => 'my.justaguylinux.cloud',
+	),
 	```
