@@ -264,7 +264,18 @@ tags:
 
 ## Part 3: Dealing with Errors 
 
-1. **Detected some missing optional indices.**
+1. **Change config.php permissions**
+
+	```bash
+	sudo chmod 660 /var/www/nc.learnlinux.tv/config/config.php
+	```
+	Then:
+	
+	```bash
+	sudo chown root:www-data /var/www/nc.learnlinux.tv/config/config.php
+	```
+
+2. **Detected some missing optional indices.**
 
 	Make occ executable: 
 	
@@ -278,6 +289,9 @@ tags:
 	sudo /var/www/my.justaguylinux.cloud/occ db:add-missing-indices
 	```
 	
+	Check to see if error is no longer
+	
+3. 
 	
 	
  
