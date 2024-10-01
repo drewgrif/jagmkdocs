@@ -268,12 +268,7 @@ tags:
 1. **Change config.php permissions**
 
 	```bash
-	sudo chmod 666 /var/www/my.justaguylinux.cloud/config/config.php
-	```
-	Then:
-	
-	```bash
-	sudo chown root:www-data /var/www/my.justaguylinux.cloud/config/config.php
+	sudo chmod 660 /var/www/my.justaguylinux.cloud/config/config.php
 	```
 
 2. **Detected some missing optional indices.**
@@ -313,7 +308,7 @@ tags:
 	```bash
 	sudo nano /var/www/my.justaguylinux.cloud/config/config.php
 	```
-	**Remove `'maintenance' => false,`**
+	**Remove:** `maintenance => false,`
 	
 	**Add:**
 	
@@ -362,10 +357,14 @@ tags:
 6. **Array:  Not a warning but good idea**
 
 	```bash
+	sudo nano /var/www/my.justaguylinux.cloud/config/config.php
+	```
+
+	```bash
 	'trusted_domains' => 
 	array (
     0 => '192.168.254.80',
-    1 => 'ventian',
+    1 => 'venetian',
     2 => 'my.justaguylinux.cloud',
 	),
 	```
