@@ -12,7 +12,7 @@ tags:
 ## Part 1: Setting Up Cloudflare
 
 1. **Ensure Your Domain Uses Cloudflare DNS**
-   - ![Insert Screenshot](#)
+   ![2024-09-30_16-55](https://github.com/user-attachments/assets/25d76502-6cfe-4c63-8c04-1a287376c9f8)
 
 2. **[Cloudflare Zero Trust](https://one.dash.cloudflare.com)**
 
@@ -23,7 +23,7 @@ tags:
 5. **Copy the Cloudflared Connector and install on Ubuntu 24.04 server**
 
 6. **Configure Public Hostname**  
-   (Further details needed)
+ ![2024-09-30_17-18](https://github.com/user-attachments/assets/a1ce0a62-b72d-4d92-99b7-fb2f38f6cda7)
 
 ---
 
@@ -37,7 +37,10 @@ tags:
     sudo apt install -y eza redis-server build-essential unzip libmagickwand-dev librsvg2-dev
     ```
 
-2. **Replace `.bashrc`:**
+2. **Replac![2024-09-30_16-55](https://github.com/user-attachments/assets/ca4a4e33-2283-40b1-9d87-1ef8ac499186)
+![2024-09-30_16-55](https://github.com/user-attachments/assets/43aa3771-780d-41e3-981f-91b469a76411)
+![2024-09-30_16-55](https://github.com/user-attachments/assets/d51c74d8-d4af-4647-adf8-20c8d053bf3f)
+e `.bashrc`:**
 
     ```bash
     rm ~/.bashrc
