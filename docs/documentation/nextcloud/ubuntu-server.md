@@ -262,12 +262,12 @@ tags:
 
 ---
 
-## Part 3: Dealing with Errors 
+## Part 3: Dealing with Warnings
 
 1. **Change config.php permissions**
 
 	```bash
-	sudo chmod 660 /var/www/nc.learnlinux.tv/config/config.php
+	sudo chmod 666 /var/www/nc.learnlinux.tv/config/config.php
 	```
 	Then:
 	
@@ -291,8 +291,47 @@ tags:
 	
 	Check to see if error is no longer
 	
-3. 
+3. **One or more mimetype migrations are available**
+
+	```bash
+	sudo /var/www/my.justaguylinux.cloud/occ maintenance:repair --include-expensive
+	```
 	
+4.  **The following warnings**
 	
- 
+	- Server has no maintenance window start time configured.
+
+	- The database is used for transactional file locking.
+
+	- No memory cache has been configured.
+
+	- Your installation has no default phone region set.
+
+	- You have not set or verified your email server configuration yet.
 	
+	```bash
+	sudo nano /var/www.justaguylinux.cloud/config/config.php
+	```
+	
+	```php
+    'mail_from_address' => 'nextcloud',
+	'mail_smtpmode' => 'smtp',
+	'mail_sendmailmode' => 'smtp',
+	'mail_domain' => 'gmail.com',
+	'mail_smtphost' => 'smtp.gmail.com',
+	'mail_smtpport' => '587',
+	'mail_smtpauth' => 1,
+	'mail_smtpname' => 'nextcloud@gmail.com',
+	'mail_smtppassword' => 'app-specific-pw',
+	'maintenance_window_start' => 1,
+	'memcache.local' => '\\OC\\Memcache\\APCu',
+	'memcache.distributed' => '\\OC\\Memcache\\Redis',
+	'memcache.locking' => '\\OC\\Memcache\\Redis',
+	'redis' => 
+	array (
+	'host' => 'localhost',
+	'port' => 6379,
+	),
+	'default_phone_region' => 'US',
+	'overwriteprotocol' => 'https',
+	```
