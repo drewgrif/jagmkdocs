@@ -238,19 +238,18 @@ tags:
 		
 		opcache.revalidate_freq = 1
 		
-  
+2. **Enable acpu module**
 
-2. **Restart Apache:**
+	```bash
+	sudo nano /etc/php/8.3/mods-available/apcu.ini
+	```
+	
+	Add `apc.enable_cli=1`
+
+3. **Restart Apache:**
 
     ```bash
     sudo systemctl restart apache2
     ```
 
 ---
-
-### Additional Configuration
-For configurations related to using an external USB drive, see [02 Using an External USB Drive](#).
-
----
-
-Feel free to adjust any details or add specific troubleshooting steps! Let me know if you need further assistance.
