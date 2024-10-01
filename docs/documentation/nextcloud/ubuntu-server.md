@@ -37,10 +37,7 @@ tags:
     sudo apt install -y eza redis-server build-essential unzip libmagickwand-dev librsvg2-dev
     ```
 
-2. **Replac![2024-09-30_16-55](https://github.com/user-attachments/assets/ca4a4e33-2283-40b1-9d87-1ef8ac499186)
-![2024-09-30_16-55](https://github.com/user-attachments/assets/43aa3771-780d-41e3-981f-91b469a76411)
-![2024-09-30_16-55](https://github.com/user-attachments/assets/d51c74d8-d4af-4647-adf8-20c8d053bf3f)
-e `.bashrc`:**
+2. **Replace `.bashrc`:**
 
     ```bash
     rm ~/.bashrc
