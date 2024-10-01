@@ -345,7 +345,7 @@ tags:
 	sudo nano /etc/apache2/sites-available/my.justaguylinux.cloud.conf
 	```
 	
-	**Add after </Directory**
+	**Add after </Directory>**
 	
 	```ini
 	<IfModule mod_headers.c>
