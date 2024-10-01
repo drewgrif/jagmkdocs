@@ -264,8 +264,21 @@ tags:
 
 ## Part 3: Dealing with Errors 
 
- !!! note 
-	Found in the Administative Settings Overview
+1. **Detected some missing optional indices.**
+
+	Make occ executable: 
+	
+	```bash
+	sudo chmod +x /var/www/my.justaguylinux.cloud/occ
+	```
+	
+	Then add missing indices:
+	
+	```bash
+	sudo /var/www/my.justaguylinux.cloud/occ db:add-missing-indices
+	```
+	
+	
 	
  
 	
