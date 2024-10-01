@@ -57,13 +57,13 @@ tags:
 	```shell
 	sudo nano /etc/hostname
 	```
-	Type the subdomain from cloudflare `ex: my.justaguylinux.cloud`
+	Add the subdomain from cloudflare `ex: my.justaguylinux.cloud`
 
 	```shell
 	sudo nano /etc/hosts
 	```
 
-	Add line `127.0.1.1	  ex: my.justaguylinux.cloud`
+	Add line `127.0.1.1	  ex: venetian  my.justaguylinux.cloud`
 
  
 5. **Reboot the Server:**
@@ -144,43 +144,62 @@ tags:
     sudo phpenmod bcmath gmp imagick intl redis
     ```
 
-3. **Unzip and Move Nextcloud:**
+3. **Unzip Nextcloud:**
 
     ```bash
     unzip latest.zip
-    sudo chown -R www-data:www-data nextcloud
+    ```
+    
+4. **Rename nextcloud to subdomain**
+    
+    ```bash
+    mv nextcloud my.justaguylinux.cloud
+    ```
+5. **Change nextcloud ownership**
+
+	```bash
+	sudo chown -R www-data:www-data my.justaguylinux.cloud
+	```
+
+6. **Move nextcloud to apache**
+
+	```bash
     sudo mv nextcloud /var/www
+    ```
+7. **Disable default apache site**
+    
+    ```bash
     sudo a2dissite 000-default.conf
     ```
 
-4. **Configure Apache for Nextcloud:**
+8. **Configure Apache for Nextcloud:**
 
     ```bash
-    sudo nano /etc/apache2/sites-available/nextcloud.conf
+    sudo nano /etc/apache2/sites-available/my.justaguylinux.cloud.conf
     ```
 
     Add the following content:
 
     ```apache
     <VirtualHost *:80>
-        DocumentRoot "/var/www/nextcloud"
-        ServerName nextcloud
+        DocumentRoot "/var/www/my.justaguylinux.cloud"
+        ServerName my.justaguylinux.cloud
 
-        <Directory "/var/www/nextcloud/">
+        <Directory "/var/www/my.justaguylinux.cloud/">
             Options MultiViews FollowSymlinks
             AllowOverride All
             Require all granted
         </Directory>
 
-        TransferLog /var/log/apache2/nextcloud_access.log
-        ErrorLog /var/log/apache2/nextcloud_error.log
+        TransferLog /var/log/apache2/my.justaguylinux.cloud_access.log
+        ErrorLog /var/log/apache2/my.justaguylinux.cloud_error.log
     </VirtualHost>
     ```
 
-5. **Enable Nextcloud Site and Restart Apache:**
+9. **Enable Nextcloud Site and Restart Apache:**
 
     ```bash
-    sudo a2ensite nextcloud.conf
+    sudo a2ensite my.justaguylinux.cloud.conf
     sudo systemctl restart apache2
     ```
 
