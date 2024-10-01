@@ -257,6 +257,7 @@ tags:
 ### Step 5: Nextcloud via Web Browser
 
 1. **Install via Web:  https://my.justaguylinux.cloud**
+![2024-10-01_13-50](https://github.com/user-attachments/assets/fa63b0bb-6f52-49f3-8341-11a3ba5df3f9)
 
 2. **Install recommended applications**
 
