@@ -12,7 +12,7 @@ tags:
 ## Part 1: Setting Up Cloudflare
 
 1. **Ensure Your Domain Uses Cloudflare DNS**
-   - ![Insert Screenshot](#)
+   ![2024-09-30_16-55](https://github.com/user-attachments/assets/25d76502-6cfe-4c63-8c04-1a287376c9f8)
 
 2. **[Cloudflare Zero Trust](https://one.dash.cloudflare.com)**
 
@@ -23,7 +23,7 @@ tags:
 5. **Copy the Cloudflared Connector and install on Ubuntu 24.04 server**
 
 6. **Configure Public Hostname**  
-   (Further details needed)
+ ![2024-09-30_17-18](https://github.com/user-attachments/assets/a1ce0a62-b72d-4d92-99b7-fb2f38f6cda7)
 
 ---
 
@@ -257,6 +257,7 @@ tags:
 ### Step 5: Nextcloud via Web Browser
 
 1. **Install via Web:  https://my.justaguylinux.cloud**
+![2024-10-01_13-50](https://github.com/user-attachments/assets/fa63b0bb-6f52-49f3-8341-11a3ba5df3f9)
 
 2. **Install recommended applications**
 
