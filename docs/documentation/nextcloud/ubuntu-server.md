@@ -268,12 +268,12 @@ tags:
 1. **Change config.php permissions**
 
 	```bash
-	sudo chmod 666 /var/www/nc.learnlinux.tv/config/config.php
+	sudo chmod 666 /var/www/my.justaguylinux.cloud/config/config.php
 	```
 	Then:
 	
 	```bash
-	sudo chown root:www-data /var/www/nc.learnlinux.tv/config/config.php
+	sudo chown root:www-data /var/www/my.justaguylinux.cloud/config/config.php
 	```
 
 2. **Detected some missing optional indices.**
