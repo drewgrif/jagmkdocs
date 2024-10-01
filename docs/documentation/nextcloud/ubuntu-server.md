@@ -164,7 +164,7 @@ tags:
 6. **Move nextcloud to apache**
 
 	```bash
-    sudo mv nextcloud /var/www
+    sudo mv my.justaguylinux.cloud /var/www
     ```
 7. **Disable default apache site**
     
@@ -244,7 +244,7 @@ tags:
 	sudo nano /etc/php/8.3/mods-available/apcu.ini
 	```
 	
-	Add `apc.enable_cli=1`
+	Add to the file: `apc.enable_cli=1`
 
 3. **Restart Apache:**
 
