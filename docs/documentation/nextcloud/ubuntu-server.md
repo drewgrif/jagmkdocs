@@ -7,7 +7,7 @@ tags:
     - installation
 ---
 
-# Setting Up Cloudflare and Nextcloud on Ubuntu Server
+# Setting Up Cloudflare/Nextcloud/Ubuntu Server
 
 ## Part 1: Setting Up Cloudflare
 
@@ -368,3 +368,6 @@ tags:
     2 => 'my.justaguylinux.cloud',
 	),
 	```
+---
+
+Source: https://www.learnlinux.tv/complete-walkthrough-for-installing-nextcloud-on-ubuntu-24-04/
