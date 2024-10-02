@@ -34,7 +34,7 @@ tags:
 1. **Install Necessary Packages:**
 
     ```bash
-    sudo apt install -y eza redis-server build-essential unzip libmagickwand-dev librsvg2-dev
+    sudo apt install -y eza redis-server build-essential unzip libmagickwand-dev librsvg2-dev libmagickcore-6.q16-7-extra
     ```
 
 2. **Replace `.bashrc`:**
@@ -131,7 +131,7 @@ tags:
 1. **Install Required PHP Packages:**
 
     ```bash
-    sudo apt install php php-apcu php-bcmath php-cli php-common php-curl php-gd php-gmp php-imagick php-intl php-mbstring php-mysql php-zip php-xml php-redis
+    sudo apt install php php-apcu php-bcmath php-cli php-common php-curl php-gd php-gmp php-imagick php-intl php-mbstring php-mysql php-zip php-xml php-redis 
     ```
 
 2. **Enable Apache Modules:**
