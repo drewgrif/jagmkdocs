@@ -7,7 +7,7 @@ tags:
     - installation
 ---
 
-# Setting Up Cloudflare/Nextcloud/Ubuntu Server
+## Ubuntu Server Installation - Nextcloud
 
 ## Part 1: Setting Up Cloudflare
 
