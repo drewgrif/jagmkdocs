@@ -361,12 +361,13 @@ tags:
 	```
 
 	```bash
-	'trusted_domains' => 
-	array (
-    0 => '192.168.254.80',
-    1 => 'venetian',
-    2 => 'my.justaguylinux.cloud',
-	),
+		'trusted_domains' => 
+		array (
+		0 => '192.168.254.80',
+		1 => 'venetian',
+		2 => 'my.justaguylinux.cloud',
+		),
+	
 	```
 ---
 
