@@ -4,9 +4,6 @@ tags:
     - privacy
     - thoughts
 ---
-
-## Too Much Google
-
 There are several arguments people make for reducing or eliminating reliance on Google, including:
 
 1. **Privacy Concerns**: Google collects vast amounts of user data, raising concerns about privacy and surveillance.
