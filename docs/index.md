@@ -4,7 +4,7 @@ Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy.” �
 
 !!! tip "Latest Docs Added/Edited"
 
-	- **[ProtonMail 🔒](thoughts/proton-mail.md.md)**	
+	- **[ProtonMail 🔒](thoughts/proton-mail.md)**	
 	- **[Nextcloud - Installation 🛠️](documentation/nextcloud/ubuntu-install.md)**
 	- **[Nextcloud - Awesome Apps 🛠️](documentation/nextcloud/featured_apps.md)**
 	- **[MKVToolnix 🎥](documentation/software/mkvtoolnix.md)**
