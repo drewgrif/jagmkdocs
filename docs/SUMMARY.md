@@ -1,11 +1,8 @@
-#### Main Links
 - [📖 Start Here](index.md)
 - [📹 YouTube](youtube/)
 - [📘 Knowledge Base](documentation/)
 - [🧠 Thoughts](thoughts/)
 - [🏷️ Tags](tags.md)
 - [💬 Contact](contact.md)
+- **[💼 Offers](offers.md)** (Special Offer!)
 - [🔍 About](about.md)
-
-#### Special Offers
-- [💼 Offers](offers.md)
