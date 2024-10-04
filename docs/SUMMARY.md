@@ -5,4 +5,3 @@
 - [🏷️ Tags](tags.md)
 - [💬 Contact](contact.md)
 - [🔍 About](about.md)
-- [💼 Offers](offers.md) 
