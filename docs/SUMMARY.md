@@ -4,4 +4,5 @@
 - [🧠 Thoughts](thoughts/)
 - [🏷️ Tags](tags.md)
 - [💬 Contact](contact.md)
+- [💼 Offers](offers.md)
 - [🔍 About](about.md)
