@@ -174,3 +174,10 @@ Open your web browser and go to `http://<IP-address-of-your-server>:3000`. You w
 To use Gitea with a domain, set up a reverse proxy using your preferred web server (Nginx, Apache, etc.). This will allow access to Gitea without specifying a port.
 
 During the initial setup, use the database credentials created earlier and configure the general settings. Click ‘Install Gitea’ to complete the setup, and you will be redirected to the Gitea homepage where you can log in.
+
+## Step 5: Modify the INI file
+
+If you use cloudflare to create a (sub)domain for your gitea instance. you DEFINTELY want to modify the INI file to restrict the ability to sign up.
+
+Located at `/etc/gitea/app.ini`
+
