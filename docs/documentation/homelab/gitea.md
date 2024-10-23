@@ -174,3 +174,9 @@ During the initial setup, use the database credentials created earlier and confi
 If you use Cloudflare to create a (sub)domain for your Gitea instance, it’s essential to modify the INI file to restrict user sign-ups.
 
 Locate the file at `/etc/gitea/app.ini` and make the necessary adjustments.
+
+Restart the Gitea service:
+
+```bash
+sudo systemctl restart gitea
+```
