@@ -5,37 +5,31 @@ tags:
     - gitea
     - documentation
 ---
-# Setting Up Cloudflare and Gitea
+# 🌐 Gitea
 
-## Prerequisites
+## ☁️ Cloudflare Setup
 
-Ensure that your domain is configured to use Cloudflare DNS.
-
----
-
-## Cloudflare Setup
-
-1. **Verify Cloudflare DNS**  
+1. **✅ Verify Cloudflare DNS**  
    Ensure your domain is pointed to Cloudflare's DNS.  
    ![Cloudflare DNS Setup](https://github.com/user-attachments/assets/25d76502-6cfe-4c63-8c04-1a287376c9f8)
 
-2. **Access Cloudflare Zero Trust**  
+2. **🔒 Access Cloudflare Zero Trust**  
    Go to [Cloudflare Zero Trust](https://one.dash.cloudflare.com).
 
-3. **Navigate to Network > Tunnels.**
+3. **🔍 Navigate to Network > Tunnels.**
 
-4. **Create a Tunnel**  
+4. **🛠️ Create a Tunnel**  
    Select the Debian 64-bit architecture.
 
-5. **Install Cloudflared on Ubuntu 24.04**  
+5. **💻 Install Cloudflared on Ubuntu 24.04**  
    Copy the Cloudflared connector and install it on your server.
 
-6. **Configure the Public Hostname**  
+6. **🏷️ Configure the Public Hostname**  
    ![Public Hostname Configuration](https://github.com/user-attachments/assets/a1ce0a62-b72d-4d92-99b7-fb2f38f6cda7)
 
 ---
 
-## Step 1: Update Your System
+## 🖥️ Step 1: Update Your System
 
 Start by updating your system packages:
 
@@ -44,9 +38,9 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-## Step 2: Install and Configure MariaDB
+## 🗄️ Step 2: Install and Configure MariaDB
 
-### Install MariaDB
+### 📦 Install MariaDB
 
 Run the following commands to install MariaDB:
 
@@ -65,7 +59,7 @@ Follow the prompts:
 - **Remove test database:** Press `Enter` or type `Y`
 - **Reload privilege tables:** Press `Enter` or type `Y`
 
-### Create the Gitea Database
+### 🗃️ Create the Gitea Database
 
 Open the MariaDB prompt:
 
@@ -82,9 +76,9 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-## Step 3: Install Gitea
+## 🚀 Step 3: Install Gitea
 
-### Create a User for Gitea
+### 👤 Create a User for Gitea
 
 Create a system user named `git`:
 
@@ -92,7 +86,7 @@ Create a system user named `git`:
 sudo adduser --system --shell /bin/bash --group --disabled-password --home /home/git git
 ```
 
-### Download and Move Gitea
+### 📥 Download and Move Gitea
 
 Download Gitea and move it to the `/usr/bin` directory:
 
@@ -101,7 +95,7 @@ wget https://dl.gitea.com/gitea/1.19/gitea-1.22.3-linux-amd64
 sudo mv gitea-1.22.3-linux-amd64 /usr/bin/gitea
 ```
 
-### Set Permissions
+### 🔒 Set Permissions
 
 Adjust the permissions for the Gitea binary:
 
@@ -109,7 +103,7 @@ Adjust the permissions for the Gitea binary:
 sudo chmod 755 /usr/bin/gitea
 ```
 
-### Create Required Directories
+### 📂 Create Required Directories
 
 Set up the necessary directories for Gitea:
 
@@ -120,7 +114,7 @@ sudo chmod 750 /var/lib/gitea/{data,indexers,log}
 sudo chmod 770 /etc/gitea
 ```
 
-### Create the Gitea Service File
+### ⚙️ Create the Gitea Service File
 
 Create a new service file for Gitea:
 
@@ -152,7 +146,7 @@ WantedBy=multi-user.target
 
 Save and exit the file (Ctrl + O, Enter, Ctrl + X).
 
-### Start the Gitea Service
+### 🔄 Start the Gitea Service
 
 Reload the systemd daemon and start the Gitea service:
 
@@ -167,7 +161,7 @@ Enable Gitea to start on boot:
 sudo systemctl enable gitea
 ```
 
-## Step 4: Access Gitea Web Interface
+## 🌍 Step 4: Access Gitea Web Interface
 
 Open your web browser and go to `http://<IP-address-of-your-server>:3000`. You will see Gitea's initial configuration screen.
 
@@ -175,9 +169,8 @@ To use Gitea with a domain, set up a reverse proxy using your preferred web serv
 
 During the initial setup, use the database credentials created earlier and configure the general settings. Click ‘Install Gitea’ to complete the setup, and you will be redirected to the Gitea homepage where you can log in.
 
-## Step 5: Modify the INI file
+## 📝 Step 5: Modify the INI File
 
-If you use cloudflare to create a (sub)domain for your gitea instance. you DEFINTELY want to modify the INI file to restrict the ability to sign up.
+If you use Cloudflare to create a (sub)domain for your Gitea instance, it’s essential to modify the INI file to restrict user sign-ups.
 
-Located at `/etc/gitea/app.ini`
-
+Locate the file at `/etc/gitea/app.ini` and make the necessary adjustments.
