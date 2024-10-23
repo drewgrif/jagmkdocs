@@ -91,7 +91,7 @@ sudo adduser --system --shell /bin/bash --group --disabled-password --home /home
 Download Gitea and move it to the `/usr/bin` directory:
 
 ```bash
-wget https://dl.gitea.com/gitea/1.19/gitea-1.22.3-linux-amd64
+wget https://dl.gitea.com/gitea/1.22.3/gitea-1.22.3-linux-amd64
 sudo mv gitea-1.22.3-linux-amd64 /usr/bin/gitea
 ```
 
