@@ -5,69 +5,75 @@ tags:
     - gitea
     - documentation
 ---
+# Setting Up Cloudflare and Gitea
 
-## Setting Up Cloudflare
+## Prerequisites
 
-1. **Ensure Your Domain Uses Cloudflare DNS**
-   ![2024-09-30_16-55](https://github.com/user-attachments/assets/25d76502-6cfe-4c63-8c04-1a287376c9f8)
-
-2. **[Cloudflare Zero Trust](https://one.dash.cloudflare.com)**
-
-3. **Navigate to Network > Tunnels**.
-
-4. **Create the tunnel and select Debian 64 Bit architecture.**
-
-5. **Copy the Cloudflared Connector and install on Ubuntu 24.04 server**
-
-6. **Configure Public Hostname**  
- ![2024-09-30_17-18](https://github.com/user-attachments/assets/a1ce0a62-b72d-4d92-99b7-fb2f38f6cda7)
+Ensure that your domain is configured to use Cloudflare DNS.
 
 ---
 
-## Step 1: Update the System
+## Cloudflare Setup
 
-Begin by updating your system packages to the latest versions. Run the following commands:
+1. **Verify Cloudflare DNS**  
+   Ensure your domain is pointed to Cloudflare's DNS.  
+   ![Cloudflare DNS Setup](https://github.com/user-attachments/assets/25d76502-6cfe-4c63-8c04-1a287376c9f8)
+
+2. **Access Cloudflare Zero Trust**  
+   Go to [Cloudflare Zero Trust](https://one.dash.cloudflare.com).
+
+3. **Navigate to Network > Tunnels.**
+
+4. **Create a Tunnel**  
+   Select the Debian 64-bit architecture.
+
+5. **Install Cloudflared on Ubuntu 24.04**  
+   Copy the Cloudflared connector and install it on your server.
+
+6. **Configure the Public Hostname**  
+   ![Public Hostname Configuration](https://github.com/user-attachments/assets/a1ce0a62-b72d-4d92-99b7-fb2f38f6cda7)
+
+---
+
+## Step 1: Update Your System
+
+Start by updating your system packages:
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-## Step 2: Install and Configure the Database Server (MariaDB)
+## Step 2: Install and Configure MariaDB
 
-To install the MariaDB database server, use:
+### Install MariaDB
 
-**Install MariaDB:**
+Run the following commands to install MariaDB:
 
-    ```bash
-    sudo apt install -y mariadb-server
-    sudo mysql_secure_installation
-    ```
+```bash
+sudo apt install -y mariadb-server
+sudo mysql_secure_installation
+```
 
-    Follow these prompts:
-    
-    - Current root password: `Enter`
-    
-    - Switch to unix_socket authentication: `n`
-    
-    - Change root password: `Enter or Y` and set a new password.
-    
-    - Remove anonymous users: `Enter or Y`
-    
-    - Disallow root login remotely: `Enter or Y`
-    
-    - Remove test database: `Enter or Y`
-    
-    - Reload privilege tables: `Enter or Y`
-    
+Follow the prompts:
 
-**Create Gitea Database:**
+- **Current root password:** Press `Enter`
+- **Switch to unix_socket authentication:** `n`
+- **Change root password:** Press `Enter` or type `Y` and set a new password.
+- **Remove anonymous users:** Press `Enter` or type `Y`
+- **Disallow root login remotely:** Press `Enter` or type `Y`
+- **Remove test database:** Press `Enter` or type `Y`
+- **Reload privilege tables:** Press `Enter` or type `Y`
 
-    ```bash
-    sudo mariadb
-    ```
+### Create the Gitea Database
 
-Next, set up the database for Gitea by creating a database and a user with all privileges:
+Open the MariaDB prompt:
+
+```bash
+sudo mariadb
+```
+
+Create the Gitea database and user:
 
 ```sql
 CREATE DATABASE gitea;
@@ -76,22 +82,26 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-With this, you’ve completed the database installation and configuration, and you’re ready to install Gitea.
-
 ## Step 3: Install Gitea
 
-First, create a new system user named `git`:
+### Create a User for Gitea
+
+Create a system user named `git`:
 
 ```bash
 sudo adduser --system --shell /bin/bash --group --disabled-password --home /home/git git
 ```
 
-Next, download Gitea and move it to the `/usr/bin` directory:
+### Download and Move Gitea
+
+Download Gitea and move it to the `/usr/bin` directory:
 
 ```bash
 wget https://dl.gitea.com/gitea/1.19/gitea-1.22.3-linux-amd64
 sudo mv gitea-1.22.3-linux-amd64 /usr/bin/gitea
 ```
+
+### Set Permissions
 
 Adjust the permissions for the Gitea binary:
 
@@ -99,7 +109,9 @@ Adjust the permissions for the Gitea binary:
 sudo chmod 755 /usr/bin/gitea
 ```
 
-Now, create the necessary directories for Gitea and set the correct permissions:
+### Create Required Directories
+
+Set up the necessary directories for Gitea:
 
 ```bash
 sudo mkdir -p /etc/gitea /var/lib/gitea/{custom,data,indexers,public,log}
@@ -108,13 +120,15 @@ sudo chmod 750 /var/lib/gitea/{data,indexers,log}
 sudo chmod 770 /etc/gitea
 ```
 
-Next, create the Gitea service file. Open a new file called `gitea.service` in `/etc/systemd/system`:
+### Create the Gitea Service File
+
+Create a new service file for Gitea:
 
 ```bash
 sudo nano /etc/systemd/system/gitea.service
 ```
 
-Add the following content to the file:
+Add the following content:
 
 ```ini
 [Unit]
@@ -136,23 +150,27 @@ Environment=USER=git HOME=/home/git GITEA_WORK_DIR=/var/lib/gitea
 WantedBy=multi-user.target
 ```
 
-Save the file (Ctrl + O, then Enter) and exit (Ctrl + X). Now, reload the systemd daemon and start the Gitea service:
+Save and exit the file (Ctrl + O, Enter, Ctrl + X).
+
+### Start the Gitea Service
+
+Reload the systemd daemon and start the Gitea service:
 
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start gitea
 ```
 
-To ensure the Gitea service starts on boot, run:
+Enable Gitea to start on boot:
 
 ```bash
 sudo systemctl enable gitea
 ```
 
-## Step 4: Access the Gitea Web Interface
+## Step 4: Access Gitea Web Interface
 
-Open your web browser and navigate to `http://IP-address-of-your-server:3000`. You should see Gitea's initial configuration screen.
+Open your web browser and go to `http://<IP-address-of-your-server>:3000`. You will see Gitea's initial configuration screen.
 
-To use Gitea with a domain, set up a reverse proxy with your web server (Nginx, Apache, etc.). This allows you to access Gitea without needing to include a port number.
+To use Gitea with a domain, set up a reverse proxy using your preferred web server (Nginx, Apache, etc.). This will allow access to Gitea without specifying a port.
 
-During the initial configuration, use the database credentials you set up earlier and configure the general settings. Click ‘Install Gitea,’ and you will be redirected to Gitea’s homepage where you can log in.
+During the initial setup, use the database credentials created earlier and configure the general settings. Click ‘Install Gitea’ to complete the setup, and you will be redirected to the Gitea homepage where you can log in.
