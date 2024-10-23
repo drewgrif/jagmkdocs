@@ -4,6 +4,7 @@ Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy.” �
 
 !!! tip "Latest Docs Added/Edited"
 
+	- **[Gitea - Installation 🛠️](documentation/homelab/gitea.md)**
 	- **[ProtonMail 🔒](thoughts/proton-mail.md)**	
 	- **[Nextcloud - Installation 🛠️](documentation/nextcloud/ubuntu-install.md)**
 	- **[Nextcloud - Awesome Apps 🛠️](documentation/nextcloud/featured_apps.md)**
