@@ -1,7 +1,3 @@
-Here's the reformatted server list, including Server 4 with updated performance metrics:
-
----
-
 # Server 1
 
 - **Provider:** Hetzner
