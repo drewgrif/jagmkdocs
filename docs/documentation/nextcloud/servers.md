@@ -1,4 +1,4 @@
-# Server 1
+## Server 1
 
 - **Provider:** Hetzner
 - **OS:** Ubuntu
@@ -42,7 +42,7 @@
 
 ---
 
-# Server 2
+## Server 2
 
 - **Provider:** Interserver.net
 - **OS:** Ubuntu
@@ -87,7 +87,7 @@
 
 ---
 
-# Server 3
+## Server 3
 
 - **Provider:** AWS EC2 (t3.xlarge)
 - **OS:** Ubuntu
@@ -131,7 +131,7 @@
 
 ---
 
-# Server 4
+## Server 4
 
 - **Provider:** Linode
 - **OS:** Ubuntu
