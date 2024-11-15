@@ -95,7 +95,17 @@ tags:
     
     - Current root password: `Enter`
     
-    - Switch to unix_socket authentication: `n`
+    - Switch to usudo snap install core; sudo snap refresh core
+
+Install Certbot:
+
+sudo snap install --classic certbot
+
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+Attempt to obtain a certificate (DNS must have already propagated):
+
+sudo certbot --apachenix_socket authentication: `n`
     
     - Change root password: `Enter or Y` and set a new password.
     
@@ -202,7 +212,27 @@ tags:
     sudo a2ensite my.justaguylinux.cloud.conf
     sudo systemctl restart apache2
     ```
+10. **Installing SSL
 
+```bash
+sudo snap install core; sudo snap refresh core
+```
+
+Install Certbot:
+
+```bash
+sudo snap install --classic certbot
+```
+
+```bash
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+
+Attempt to obtain a certificate (DNS must have already propagated):
+
+```bash
+sudo certbot --apache
+```
 ---
 
 ### Step 4: Adjust PHP Settings
