@@ -16,22 +16,22 @@ To prevent the creation of default files in new user accounts in Nextcloud (such
 
 New users in Nextcloud are typically provided with default folders/files from a `user-skeleton` directory.
 
-1. Locate the `user-skeleton` directory. The default path is usually:
+- Locate the `user-skeleton` directory. The default path is usually:
 
    ```bash
    cd /var/www/nextcloud/core/skeleton
    ```
 
-2. Delete any files or directories in this folder to prevent them from being copied to new users' home directories:
+- Delete any files or directories in this folder to prevent them from being copied to new users' home directories:
 
 !!! note
     This will prevent any default files (such as `Documents`, `Photos`, etc.) from being copied to new user accounts.
 
-### 3. **Prevent "First Run Wizard" (Optional)**
+### Prevent "First Run Wizard" (Optional)
 
 The "First Run Wizard" in Nextcloud might also encourage the creation of default folders. If you want to remove this wizard for new users, follow these steps:
 
-1. **Disable the First Run Wizard**:
+**Disable the First Run Wizard**:
    - As an admin, you can disable the "First Run Wizard" by navigating to:
    - **Settings** > **Administration** > **General**.
    - Then, uncheck the option **Enable first-run wizard**.
