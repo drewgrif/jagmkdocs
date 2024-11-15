@@ -207,6 +207,7 @@ Attempt to obtain a certificate (DNS must have already propagated):
 ```bash
 sudo certbot --apache
 ```
+
 ---
 
 ### Step 4: Adjust PHP Settings
