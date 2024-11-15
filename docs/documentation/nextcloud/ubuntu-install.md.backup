@@ -354,14 +354,13 @@ sudo certbot --apache
 
 Paste
 
-```   
-# HSTS header
+```   # HSTS header
     Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 ```
 
-```bash
-sudo systemctl restart apache2
-```
+    ```bash
+    sudo systemctl restart apache2
+    ```
 
 ---
 
