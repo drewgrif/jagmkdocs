@@ -15,35 +15,15 @@ A Git repo for notes that you manually sync.
 ---
 
 ### **1. Geany with Markdown Plugin (8.5)**  
-Lightweight and Fast:
+- Geany is known for being extremely fast and responsive. If you're looking for a minimal tool that doesn't consume a lot of system resources, especially on older or low-powered machines, Geany is a great option.  It starts up quickly, and you can edit large markdown files without experiencing lag or slowdown.
 
-    Geany is known for being extremely fast and responsive. If you're looking for a minimal tool that doesn't consume a lot of system resources, especially on older or low-powered machines, Geany is a great option.
-    It starts up quickly, and you can edit large markdown files without experiencing lag or slowdown.
+- Geany is highly customizable. You can add various plugins to extend its functionality, including the Markdown plugin, which adds syntax highlighting and live previews. You can also customize the interface, key bindings, and workflows to match your note-taking style. Since Geany is an IDE, it offers more flexibility than traditional note-taking apps, and you can configure it to suit your workflow.
 
-Customization and Extensibility:
+- With the markdown plugin, you get syntax highlighting, making it easier to write and edit markdown files. While it's not as advanced as dedicated markdown editors (like Obsidian or Typora), it's sufficient for most markdown editing tasks.
 
-    Geany is highly customizable. You can add various plugins to extend its functionality, including the Markdown plugin, which adds syntax highlighting and live previews. You can also customize the interface, key bindings, and workflows to match your note-taking style.
-    Since Geany is an IDE, it offers more flexibility than traditional note-taking apps, and you can configure it to suit your workflow.
+- For those who like a clean, distraction-free writing environment, Geany’s minimal interface can be a positive. It doesn’t come with too many bells and whistles, so you can focus on the content itself.
 
-Syntax Highlighting:
-
-    With the markdown plugin, you get syntax highlighting, making it easier to write and edit markdown files. While it's not as advanced as dedicated markdown editors (like Obsidian or Typora), it's sufficient for most markdown editing tasks.
-
-Affordable Resource Usage:
-
-    Unlike heavyweight IDEs or note-taking tools that might use a lot of memory, Geany is very efficient in terms of system resources. This makes it great for quick notes or markdown writing without draining your computer’s performance.
-
-Simple Interface:
-
-    For those who like a clean, distraction-free writing environment, Geany’s minimal interface can be a positive. It doesn’t come with too many bells and whistles, so you can focus on the content itself.
-
-File Navigation and Multiple Tabs:
-
-    Geany supports multiple open files in tabs, which can be helpful for keeping several markdown notes open at once. It also has features like file tree navigation, which makes it easy to organize and find your notes within a project structure.
-
-Free and Open-Source:
-
-    Geany is completely free and open-source, meaning there are no hidden costs, premium plans, or restrictions. If you prefer open-source software, Geany aligns with those principles.
+- Geany supports multiple open files in tabs, which can be helpful for keeping several markdown notes open at once. It also has features like file tree navigation, which makes it easy to organize and find your notes within a project structure.
 
 ---
 
