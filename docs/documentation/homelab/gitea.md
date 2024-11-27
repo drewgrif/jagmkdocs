@@ -7,7 +7,7 @@ tags:
 ---
 # 🌐 Gitea
 
-## ☁️ Cloudflare Setup
+## ☁️  Cloudflare Setup
 
 1. **✅ Verify Cloudflare DNS**  
    Ensure your domain is pointed to Cloudflare's DNS.  
