@@ -73,6 +73,17 @@ Joplin is an open-source note-taking tool with end-to-end encryption and cross-d
 ### **10. QOwnNotes (5.8)**  
 QOwnNotes supports markdown and integrates with Nextcloud for syncing, but its outdated UI and limited features make it less attractive compared to other tools. Its lack of mobile support and occasional syncing issues with Nextcloud are notable drawbacks.
 
+!!! Note
+	QT application - not a fan
+
+---
+
+### **11. Ghostwriter (5.5)**
+Ghostwriter is a simple, distraction-free markdown editor designed for writers. It provides basic markdown support and a clean interface but lacks advanced features like task management, note linking, or cloud syncing, which makes it less powerful than some other tools for extensive note-taking or organization.
+
+!!! Note
+	QT Application - not a fan
+
 ---
 
 ### **11. Logseq (5.0)**  
