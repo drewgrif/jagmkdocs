@@ -43,6 +43,9 @@ VSCode is a feature-rich, highly customizable editor with a wide range of plugin
 ### **4. Iotas (7.9)**  
 Iotas offers a modern, simple interface with markdown support and focuses on lightweight note organization. It's great for basic markdown writing, but lacks advanced features like backlinks or graph views that some other note-taking apps offer.
 
+!!! Note
+	A gnome application.  Easy to install via Flathub
+
 ---
 
 ### **5. Obsidian (7.8)**  
@@ -52,6 +55,9 @@ Obsidian is perfect for users who want to create a network of interconnected not
 
 ### **6. Apostrophe (7.5)**  
 Apostrophe provides a clean, distraction-free writing experience, with full markdown support and a live preview. It's great for writers but lacks more advanced features like task management and note linking that would make it more powerful for complex note-taking.
+
+!!! Note
+	GTK application but does not take on the style.  Weird. No tabs.
 
 ---
 
