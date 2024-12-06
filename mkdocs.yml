@@ -89,7 +89,7 @@ extra:
       link: https://fosstodon.org/@justaguylinux
       
 extra_javascript:
-  - js/custom.js
+  - js/buymeacoffee-widget.html
         
 extra_css:
   - stylesheets/extra.css
