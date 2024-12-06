@@ -7,8 +7,6 @@ copyright: Copyright &copy; 2024 JustAGuy Linux
 
 theme:
   name: material
-  extra_javascript:
-  - js/custom.js
   logo: assets/logo_j.png
   favicon: assets/jaglfav.png
   palette:
@@ -90,5 +88,8 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@justaguylinux
       
+   javascripts:
+    - js/custom.js
+        
 extra_css:
   - stylesheets/extra.css
