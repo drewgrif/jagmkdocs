@@ -8,3 +8,5 @@
 
 - **[Linode](https://www.linode.com/lp/refer/?r=06e69fe957f6b439e07b808b83b93da9f29f1f2c)**  
   I use Linode for hosting Jitsi. When you refer friends or colleagues with this link, they'll receive a $100 credit for 60 days upon adding a valid payment method to their new account.
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

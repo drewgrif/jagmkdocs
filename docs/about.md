@@ -18,3 +18,6 @@ If I can switch, you can too. Try it. You might like it.
 Thanks for stopping by.
 
 ![PXL_20240908_165815787 PORTRAIT](https://github.com/user-attachments/assets/8aba21ca-ea06-4c62-98cb-596d253db675)
+
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
