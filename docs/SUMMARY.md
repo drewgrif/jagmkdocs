@@ -7,5 +7,4 @@
 - [💼 Offers](offers.md)
 - [🔍 About](about.md)
 
-<script src="custom.js"></script>
-Hi
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/justaguylinux)
