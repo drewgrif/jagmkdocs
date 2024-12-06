@@ -32,3 +32,5 @@ Get ready for a whimsical journey through the Debian landscape. Expect:
 Debian isn’t just an operating system; it’s a treasure trove of fascinating oddities and delightful surprises. So, grab your favorite cup of coffee (or tea, or…well, whatever suits your fancy), and dive into a world where randomness reigns supreme!
 
 Welcome aboard, and remember: In Debian, the fun is in the details.
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

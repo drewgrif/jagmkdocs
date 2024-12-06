@@ -102,3 +102,4 @@ Logseq is an outliner-based tool that focuses on hierarchical note-taking and kn
 ### **Conclusion:**
 Now with **Neovim (8.4)** and **VSCode (8.1)** swapped in the rankings, **Geany** remains the top contender, thanks to its speed and lightweight design. **Neovim** rises to second place due to its customization, speed, and power for users comfortable with command-line environments, while **VSCode** drops to third due to its complexity and resource usage. Each tool offers distinct advantages, so the best choice depends largely on your preferences and technical comfort level.
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

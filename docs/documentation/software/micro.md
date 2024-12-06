@@ -69,3 +69,5 @@ With regard to the filemanager, I am wondering if I can/should use something lik
 I recognize the vimtutor is something I should utilize if I want to get better and more efficient at using neovim. Furthermore, geany (WHICH I LOVE) has a plugin for vim mode which would allow me to practice as well as be in an environment that I can use really well.
 
 But, I guess the question is do I need to be good at vim?  Not sure I do. Meanwhile, micro is darned good.  Lightweight and much more conducive for my extremely small needs.  
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

@@ -28,3 +28,5 @@ Imagine if your favorite takeout restaurant could deliver you a perfectly packed
 Getting started with Docker is easier than assembling IKEA furniture (though we can’t guarantee you won’t need to read the manual a few times). Just grab Docker, follow the steps, and watch as your development process transforms from a chaotic mess into a symphony of well-orchestrated containers.
 
 So, embrace the magic of Docker and say goodbye to software headaches. With Docker, your code can travel light, live in harmony, and never have to worry about "dependency drama" again.
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

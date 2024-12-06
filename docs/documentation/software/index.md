@@ -79,3 +79,5 @@ tags:
 ## Communication
 - **Discord**: A platform for text, voice, and video communication, popular in gaming and online communities.
   - Installation: I personally use [my own script for installing and updating Discord](https://github.com/drewgrif/jag_dots/tree/main/scripts){:target="_blank"}.
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

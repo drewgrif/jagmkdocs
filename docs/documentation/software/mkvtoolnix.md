@@ -41,3 +41,5 @@ MKVToolNix is a set of open-source tools for working with Matroska (MKV) files, 
 - **Extracting Audio for Editing**: Pull out the audio track from a movie for separate editing or use.
 
 In short, MKVToolNix is an essential toolkit for anyone working with MKV files, offering powerful and flexible tools for managing, editing, and converting multimedia content.
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

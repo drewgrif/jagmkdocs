@@ -60,3 +60,5 @@ Nextcloud Files Drop is a feature designed to simplify the process of receiving 
 - **Public File Requests:** Handy for scenarios where you need to collect files from a large group of people, such as during surveys or feedback collection.
 
 Nextcloud Files Drop streamlines the process of collecting files while maintaining control and organization within your Nextcloud environment. It enhances collaboration and makes file submission straightforward for anyone involved.
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

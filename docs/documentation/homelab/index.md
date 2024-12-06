@@ -58,6 +58,4 @@ A home lab is more than just a collection of hardware and software; it’s a pow
 
 Having your own home lab provides a multitude of benefits, from cost savings and enhanced learning to greater control and innovation. It’s a powerful investment in your personal and professional growth, allowing you to explore, experiment, and excel in your technical endeavors.
 
----
-
-Feel free to modify or expand upon these sections based on the specific focus or audience of your home lab.
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

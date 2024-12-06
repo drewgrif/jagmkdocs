@@ -101,3 +101,5 @@ Hope this helps.  I think Geany is phenomenal.
 	- [YouTube video on Geany Part 1](https://youtu.be/EuwAf_qVj14){:target="_blank"}
 	
 	- [YouTube video on Geany Part 2](https://youtu.be/ZZGKICzIuzQ){:target="_blank"}
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
