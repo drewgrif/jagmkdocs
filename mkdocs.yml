@@ -87,10 +87,8 @@ extra:
       link: https://twitter.com/justaguylinux
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@justaguylinux
-      
-extra:
-  javascripts:
-    - assets/buymeacoffee-widget.html
-        
+    - icon: fontawesome/brands/buymeacoffee
+      link: https://buymeacoffee.com/justaguylinux 
+         
 extra_css:
   - stylesheets/extra.css
