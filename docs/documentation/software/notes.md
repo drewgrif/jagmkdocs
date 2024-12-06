@@ -29,6 +29,8 @@ A Git repo for notes that you manually sync.
 
 ### **2. Neovim with `iamcco/markdown-preview.nvim` (8.4)**  
 Neovim, paired with the **markdown-preview.nvim** plugin, offers a highly customizable, efficient markdown editing experience. Ideal for users who prefer command-line tools and have a comfort level with Vim-style editing. The live preview functionality in the browser, along with the power of plugins like **Telescope** and **Treesitter**, makes it a powerful choice for advanced users. However, it requires setup and a steeper learning curve compared to more GUI-based editors.
+![2024-11-27_14-16](https://github.com/user-attachments/assets/bd68a995-32f7-49e5-9267-a7a568ed9389)
+
 
 !!! tip "Simple Neovim config"
 
