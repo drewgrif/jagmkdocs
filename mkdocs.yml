@@ -88,8 +88,8 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@justaguylinux
       
-  javascripts:
-    - js/custom.js
+extra_javascript:
+  - js/custom.js
         
 extra_css:
   - stylesheets/extra.css
