@@ -6,5 +6,3 @@
 - [💬 Contact](contact.md)
 - [💼 Offers](offers.md)
 - [🔍 About](about.md)
-
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/justaguylinux)

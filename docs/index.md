@@ -21,6 +21,10 @@ Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy.” �
 ## 📜 Documentation
 Ever wish you had a guide that explains Linux without making you feel like you need a PhD in computer science? Look no further! I seriously don't have a clue ... most of the time. My goal is to provide documentation that’s clear, helpful, and occasionally useful.
 
+I have been asked to provide a tip jar.  Not sure how I feel about it, but...
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="justaguylinux" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 ## 🎥📝 YouTube Video Notes
 Struggling to remember what you watched on that 30-minute video? (Me too) I am making an effort to offer a concise summary so you don’t have to replay the entire thing. Working on making this a regular commitment.
 
