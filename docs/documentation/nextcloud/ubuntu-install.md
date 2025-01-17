@@ -90,16 +90,16 @@ tags:
     sudo apt install -y mariadb-server
     sudo mysql_secure_installation
     ```
-2a. **mysql_secure_installation
+2a. **mysql_secure_installation:**
 
-- Enter current password for root (enter for none): ```Enter```
-- Switch to unix_socket_authentication [Y/n]  ```n```
-- Change root password [Y/n]  ```Y```
-- Set password
-- Remove anonymous users?  ```Y```
-- Disallow root login remotely?  ```Y```
-- Remove test database and access to it? ```Y```
-- Reload privilidge tables now?  ```Y```
+	- Enter current password for root (enter for none): ```Enter```
+	- Switch to unix_socket_authentication [Y/n]  ```n```
+	- Change root password [Y/n]  ```Y```
+	- Set password
+	- Remove anonymous users?  ```Y```
+	- Disallow root login remotely?  ```Y```
+	- Remove test database and access to it? ```Y```
+	- Reload privilidge tables now?  ```Y```
 
 
 3. **Create Nextcloud Database:**
