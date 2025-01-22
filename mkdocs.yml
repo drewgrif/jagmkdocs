@@ -26,7 +26,6 @@ theme:
     - search.share
 
 plugins: 
-  - rss
   - search
   - mkdocs-video:
       is_video: false
