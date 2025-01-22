@@ -26,19 +26,20 @@ theme:
     - search.share
 
 plugins: 
-  - search
-  - mkdocs-video:
-      is_video: false
-      video_muted: false
-      video_controls: True
-      css_style:
-        width: "100%"
-        height: 22.172vw;
-  - social
-  - tags:
-      tags_file: tags.md
-  - literate-nav:
-      nav_file: SUMMARY.md   
+    - rss
+    - search
+    - mkdocs-video:
+        is_video: false
+        video_muted: false
+        video_controls: True
+        css_style:
+          width: "100%"
+          height: 22.172vw;
+    - social
+    - tags:
+        tags_file: tags.md
+    - literate-nav:
+        nav_file: SUMMARY.md   
       
 markdown_extensions:
 
