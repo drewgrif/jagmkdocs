@@ -4,13 +4,11 @@ Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy.” �
 
 !!! tip "Latest Docs Added/Edited"
 
+	- **[Hosting AI Chat 🧠](documentation/software/chat.md)**
 	- **[Notes 📝](documentation/software/notes.md)**
 	- **[Gitea - Installation 🛠️](documentation/homelab/gitea.md)**
 	- **[ProtonMail 🔒](thoughts/proton-mail.md)**	
 	- **[Nextcloud - Installation 🛠️](documentation/nextcloud/ubuntu-install.md)**
-	- **[Nextcloud - Awesome Apps 🛠️](documentation/nextcloud/featured_apps.md)**
-	- **[MkDocs - Video/Documentation 🎥📚](youtube/mkdocs.md)**
-	- **[Jitsi - Installation 🛠️](documentation/homelab/jitsi.md)**
 
 ## 🤔 Why JustAGuy Linux?
 
