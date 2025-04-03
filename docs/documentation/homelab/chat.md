@@ -1,3 +1,13 @@
+---
+tags:
+    - software
+    - homelab
+    - chat
+    - ai
+    - gpt
+---
+# 🧠 Chat
+
 ## 🗂️ AI Setup Timeline on TrueNAS SCALE (LLaMA + Open WebUI + Cloud APIs)
 
 ### 🖥️ **1. System Overview**
