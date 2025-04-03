@@ -46,22 +46,6 @@ These are now my go-to **free models** for everyday tasks.  Gemma is more verbos
 ---
 
 ### 🌐 **3. Install Open WebUI**
-- Web-based interface for AI interaction
-- Connects to Ollama backend
-- Adds:
-  - Multi-user support
-  - Chat history
-  - Easy model switching
-- Hosted directly on your TrueNAS SCALE system
-
-Note:  I was able to add family members with group settings.  Also, this made it easy to limit the models they could use.
-
----
-Absolutely — here's a **cleaned-up, polished version** of sections 3 and 4, with your notes woven in professionally but conversationally:
-
----
-
-### 🌐 **3. Install Open WebUI**
 - **Open WebUI** is a sleek browser-based interface for chatting with AI models.
 - It connects directly to your Ollama backend and offers:
   - ✅ Multi-user support (great for sharing with family)
