@@ -4,7 +4,7 @@ Welcome to JustAGuyLinux, where the motto is “Not an expert. Just A Guy.” �
 
 !!! tip "Latest Docs Added/Edited"
 
-	- **[Hosting AI Chat 🧠](documentation/software/chat.md)**
+	- **[Hosting AI Chat 🧠](/documentation/homelab/chat/)**
 	- **[Notes 📝](documentation/software/notes.md)**
 	- **[Gitea - Installation 🛠️](documentation/homelab/gitea.md)**
 	- **[ProtonMail 🔒](thoughts/proton-mail.md)**	
