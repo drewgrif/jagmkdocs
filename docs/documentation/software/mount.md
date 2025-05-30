@@ -8,7 +8,7 @@ tags:
     - thunar
     - fstab
 ---
-# 🗂️ How to Mount SMB Shares
+# How to Mount SMB Shares
 
 This guide shows you how to mount SMB/CIFS network shares on Linux with proper permissions. 🚀
 
