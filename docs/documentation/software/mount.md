@@ -39,7 +39,7 @@ sudo nano /etc/fstab
 
 ### ➕ Add this line
 ```
-//server-ip/share /mnt/myshare cifs username=youruser,password=yourpass,uid=1000,gid=1000,file_mode=0664,dir_mode=0775 0 0
+//server-ip/share /mnt/myshare cifs username=youruser,password=yourpass,uid=1000,gid=1000,file_mode=0664,dir_mode=0775,_netdev,x-systemd.device-timeout=30,noauto,x-systemd.automount 0 0
 ```
 
 ### 🔄 Mount all fstab entries
